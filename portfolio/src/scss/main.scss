@@ -1,0 +1,20 @@
+/*COLOR VARIABLES*/
+
+$blue: #558DFE;
+
+$dark-grey: #333333;
+$grey: #B8B8B8;
+$light-grey: #D6D6D6;
+
+$white: #FFFFFF;
+
+/*FONT STACK*/
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$font-stack: 'Karla', sans-serif;
+$body-stack: 'Poppins', sans-serif;
+
+html{
+	font-family: $font-stack;
+}
