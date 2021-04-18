@@ -1,0 +1,43 @@
+@import '../../scss/main.scss';
+
+.aboutmeSection{
+	margin-top: 4rem;
+	padding-left: 2rem;
+	border: 1px solid black;
+}
+
+.skills{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-1{
+	width: 50%;
+	height: 20rem;
+}
+
+.container-2{
+	width: 50%;
+	height: 20rem;
+}
+
+.title{
+	font-family: $body-stack;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.title-2{
+	font-family: $body-stack;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.title-3{
+	font-family: $body-stack;
+	font-size: 1rem;
+	font-weight: bold;
+}

@@ -1,8 +1,4 @@
-/*BOOTSTRAP STYLING*/
-@import "~bootstrap/scss/bootstrap";
-
 /*COLOR VARIABLES*/
-
 $blue: #558DFE;
 
 $dark-grey: #333333;
@@ -18,6 +14,11 @@ $white: #FFFFFF;
 $font-stack: 'Karla', sans-serif;
 $body-stack: 'Poppins', sans-serif;
 
-html{
+html, body{
 	font-family: $font-stack;
+	margin: 0;
+	padding: 0;
+	background-color: #F9F9F9;
+	width: 100%;
+	height: 100%;
 }

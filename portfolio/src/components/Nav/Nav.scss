@@ -1,6 +1,49 @@
 @import '../../scss/main.scss';
 
+nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 6vh;
+	overflow: hidden;
+	z-index: 999;
+	background-color: rgba($light-grey, 0.6);
+}
 
-.custom-nav{
-	background-color: red;
+.logo{
+	color:$blue;
+	font-family: $body-stack;
+	font-weight: bold;
+	transition: all 300ms;
+}
+
+.logo:hover{
+	opacity: 0.70;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: $dark-grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+li a:hover{
+	opacity: 0.70;
+}
+
+.links{
+	float: right;
 }
