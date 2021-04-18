@@ -1,0 +1,21 @@
+@import '../../scss/main.scss';
+
+.aboutExperience{
+	margin-top: 4rem;
+	padding-left: 2rem;
+	border: 1px solid black;
+}
+
+.e-title-2{
+	font-family: $body-stack;
+	font-size: 1.3rem;
+	color: $dark-grey;
+	font-weight: bolder;
+}
+
+.e-title-3{
+	font-family: $body-stack;
+	font-size: 1.1rem;
+	color: $grey;
+	font-weight: bold;
+}
