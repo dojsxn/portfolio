@@ -3,6 +3,7 @@ import '../App.css';
 
 import ContactForm from '../components/ContactForm/ContactForm';
 import CommentBoard from '../components/CommentBoard/CommentBoard';
+import Footer from '../components/Footer/Footer.js';
 
 
 export const Contact = () =>{
@@ -10,6 +11,7 @@ export const Contact = () =>{
 		<div>
 			<ContactForm/>
 				<CommentBoard/>
+				<Footer/>
 		</div>
 	);
 }
