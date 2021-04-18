@@ -1,28 +1,82 @@
-import React from 'react';
+import React, {Component} from 'react';
+import axios from 'axios';
 import './ContactForm.scss';
 
-export const ContactForm = () =>{
-	return(
-		<div className="contactForm">
-			<h1>hello</h1>
-			<form>
-			<div className="form-input">
+class ContactForm extends Component{
+
+	state={
+		title: '',
+		body: ''
+	};
+
+	handleChange = ({target}) => {
+		const {name, value} = target;
+		this.setState({[name]:value});
+	};
+
+	submit = (event) =>{
+		event.preventDefault();
+
+		const payload = {
+			title: this.state.title,
+			body: this.state.body
+		};
+
+		axios({
+			url:'/api/save',
+			method: 'POST',
+			data: payload
+		})
+			.then(() => {
+				console.log('Data has been sent');
+				this.resetFormInputs();
+			})
+			.catch(() => {
+				console.log('Internal Server Error');
+			})
+	};
+
+	resetFormInputs = () =>{
+		this.setState({
+			title: '',
+			body: ''
+		});
+	};
+
+	render(){
+
+		console.log('State:', this.state);
+
+
+		return(
+			<div className="contactForm">
+			<h1>Let's create together?</h1>
+			<form onSubmit={this.submit}>
+				<div className="form-input">
 				<input
-				type="text"
-				name="title"
-				value=""
-				onChange={2}
+					type="text"
+					placeholder="Your Full Name"
+					name="title"
+					value={this.state.title}
+					onChange={this.handleChange}
 				/>
-			</div>
+				</div>
+				<div className="form-input">
+					<textarea
+					name="body"
+					placeholder="Your Message..."
+					cols="30"
+					rows="10"
+					value={this.state.body}
+					onChange={this.handleChange}>
+					</textarea>
+				</div>
 
-			<div className="form-input">
-				<textarea name="body" cols="30" rows="10" value="" onChange={2}></textarea>
-			</div>
-
-			<button>Submit</button>
+				<button>Submit</button>
 			</form>
-		</div>
-	);
+			</div>
+		);
+	}
 }
 
 export default ContactForm;
