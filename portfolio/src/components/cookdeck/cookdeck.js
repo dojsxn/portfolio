@@ -4,7 +4,7 @@ import './cookdeck.scss';
 
 export const cookDeck = ()=>{
 	return(
-		<div className="cookdeck">
+		<div className="project-page">
 
 		<div className="pro-cover">
 		<h2>UX/UI Design, Front-End Development, Web Development</h2>

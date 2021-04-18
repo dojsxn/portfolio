@@ -7,8 +7,10 @@ import {About} from './pages/About.jsx';
 import {Contact} from './pages/Contact.jsx';
 import {cookdeck} from './pages/cookdeck.jsx';
 import {classtrack} from './pages/classtrack.jsx';
+import {unfold} from './pages/unfold.jsx';
 
 import Nav from './components/Nav/Nav.js';
+import Footer from './components/Footer/Footer.js';
 
 class App extends Component {
 	render(){
@@ -20,8 +22,10 @@ class App extends Component {
 				<Route path ="/contact" exact component={Contact}/>
 				<Route path ="/cookdeck" exact component={cookdeck}/>
 				<Route path ="/classtrack" exact component={classtrack}/>
+				<Route path ="/unfold" exact component={unfold}/>
 			</Switch>
 			<Nav/>
+				<Footer/>
 		</Router>
 		);
 	}
