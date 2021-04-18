@@ -1,8 +1,8 @@
 import React from 'react';
-import './cookdeck.scss';
+import './classtrack.scss';
 
 
-export const cookDeck = ()=>{
+export const classtrack = ()=>{
 	return(
 		<div className="cookdeck">
 
@@ -61,4 +61,4 @@ export const cookDeck = ()=>{
 	)
 }
 
-export default cookDeck;
+export default classtrack;

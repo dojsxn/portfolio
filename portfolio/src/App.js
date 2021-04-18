@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Home} from './pages/Home.jsx';
 import {About} from './pages/About.jsx';
 import {Contact} from './pages/Contact.jsx';
+import {cookdeck} from './pages/cookdeck.jsx';
+import {classtrack} from './pages/classtrack.jsx';
+
 import Nav from './components/Nav/Nav.js';
 
 class App extends Component {
@@ -15,6 +18,8 @@ class App extends Component {
 				<Route path="/" exact component={Home}/>
 				<Route path ="/about" exact component={About}/>
 				<Route path ="/contact" exact component={Contact}/>
+				<Route path ="/cookdeck" exact component={cookdeck}/>
+				<Route path ="/classtrack" exact component={classtrack}/>
 			</Switch>
 			<Nav/>
 		</Router>
