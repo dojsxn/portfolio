@@ -1,14 +1,31 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import './ContactForm.scss';
+import './CommentBoard.scss';
 
-class ContactForm extends Component{
+class CommentBoard extends Component{
 
 	state={
 		title: '',
 		body: '',
-		message: '',
+		comments: []
 	};
+
+	componentDidMount = () =>{
+		this.getComment();
+	};
+
+
+	getComment = () =>{
+		axios.get('/capi')
+		.then((response) =>{
+			const data = response.data;
+			this.setState({comments: data});
+			console.log('Data has been recieved!!!');
+		})
+		.catch(()=>{
+			alert('Error getting data');
+		});
+	}
 
 	handleChange = ({target}) => {
 		const {name, value} = target;
@@ -24,14 +41,14 @@ class ContactForm extends Component{
 		};
 
 		axios({
-			url:'/api/save',
+			url:'/capi/saveC',
 			method: 'POST',
 			data: payload
 		})
 			.then(() => {
 				console.log('Data has been sent');
 				this.resetFormInputs();
-				this.success();
+				this.getComment();
 			})
 			.catch(() => {
 				console.log('Internal Server Error');
@@ -45,11 +62,17 @@ class ContactForm extends Component{
 		});
 	};
 
-	success = () =>{
-		this.setState({
-			message: "thank you for your message! will get back to your shortly!"
-		});
-	}
+	displayComments = (comments) => {
+		if (!comments.length) return null;
+
+
+	return comments.map((comments, index)=>(
+			<div key={index}>
+			<h4>{comments.title}</h4>
+			<p>{comments.body}</p>
+			</div>
+		));
+	};
 
 
 	render(){
@@ -59,7 +82,7 @@ class ContactForm extends Component{
 
 		return(
 			<div className="contactForm">
-			<h1>Let's create together?</h1>
+			<h1>Done exploring? Leave a message of your journey.</h1>
 			<form onSubmit={this.submit}>
 				<div className="form-input">
 				<input
@@ -84,10 +107,15 @@ class ContactForm extends Component{
 				<button>Submit</button>
 			</form>
 
-			<p>{this.state.message}</p>
+			<div className="comments">
+				{this.displayComments(this.state.comments)}
+			</div>
+
+
+
 			</div>
 		);
 	}
 }
 
-export default ContactForm;
+export default CommentBoard;

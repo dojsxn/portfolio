@@ -26,5 +26,6 @@ app.use(express.urlencoded({ extended:false }));
 //HTTP request logger
 app.use(morgan('tiny'));
 app.use('/api', routes);
+app.use('/capi', require('./routes/capi'))
 
 app.listen(PORT, console.log(`Server is starting at ${PORT}`));

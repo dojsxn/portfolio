@@ -2,10 +2,10 @@ const express = require('express');
 
 const router = express.Router();
 
-const Form = require('../models/Form');
+const Comment = require('../models/Comment');
 
 router.get('/', (req, res)=>{
-	Form.find({})
+	Comment.find({})
 		.then((data) => {
 			console.log('Data: ', data)
 			res.json(data);
@@ -16,18 +16,18 @@ router.get('/', (req, res)=>{
 
 });
 
-router.post('/save', (req, res)=>{
+router.post('/saveC', (req, res)=>{
 	const data = req.body;
 
-	const newForm = new Form(data);
+	const newComment = new Comment(data);
 
-	newForm.save((error)=>{
+	newComment.save((error)=>{
 		if(error){
 			res.status(500).json({msg:'Sorry, internal server errors'});
 			return;
 		}
 		return res.json({
-			msg: 'Message Recieved'
+			msg: 'Comment Recieved!'
 		});
 	});
 });
@@ -39,7 +39,5 @@ router.get('/name', (req, res)=>{
 	};
 	res.json(data);
 });
-
-
 
 module.exports = router;
