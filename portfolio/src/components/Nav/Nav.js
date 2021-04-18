@@ -10,10 +10,10 @@ export const navBar = ()=>{
 
 			<div className="links">
   				<li><a href="/about">about</a></li>
-  				<li><a href="/work">work</a></li>
+  				<li><a href="/">work</a></li>
 				<li><a href="/contact">contact</a></li>
 			</div>
-			
+
 			</ul>
 			</nav>
 		</div>
