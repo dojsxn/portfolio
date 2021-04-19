@@ -80,14 +80,14 @@ class ContactForm extends Component{
 				</div>
 
 				<div className="form-input">
-				<p className="form-title">email address</p>
-				<input
-					type="email"
-					placeholder="Your Email Address"
-					name="email"
-					value={this.state.email}
-					onChange={this.handleChange}
-				/>
+					<p className="form-title">email address</p>
+					<input
+						type="email"
+						placeholder="Your Email Address"
+						name="email"
+						value={this.state.email}
+						onChange={this.handleChange}
+					/>
 				</div>
 
 				<div className="form-input">

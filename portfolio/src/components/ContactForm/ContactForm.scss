@@ -59,7 +59,6 @@ input[type="text"], input[type="email"], textarea, select {
 	font-size: 0.85rem;
 	font-weight: bold;
 	text-align: center;
-	background-color: none;
 	color: $dark-grey;
 	padding: 0.45rem 1.5rem;
 	cursor: pointer;
@@ -71,19 +70,15 @@ input[type="text"], input[type="email"], textarea, select {
 	background-color: $blue;
 }
 
-
-
 .con-title{
 	margin: 0;
 }
 
 .con-content{
 	margin-bottom: 2.5rem;
-}
-
-.form-input-name{
+	font-size: 1.2rem;
 }
 
 .form-title{
-	margin: 0;
+	margin-bottom: 0.8rem;
 }

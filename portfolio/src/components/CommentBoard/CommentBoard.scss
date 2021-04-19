@@ -1,6 +1,48 @@
 @import '../../scss/main.scss';
 
-.contactForm{
+.commentForm{
 	margin-top: 4rem;
-	font-family: $body-stack;
+	margin-bottom: 8rem;
+	padding: 0rem 14rem 0rem 14rem;
+	width: auto;
+	height: auto;
+	color: $dark-grey;
+}
+
+.co-form{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comments{
+	margin-top: 2rem;
+	width: auto;
+	height: auto;
+}
+
+.com-box{
+	margin-bottom: 3rem;
+}
+.com-title{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.com-name{
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	color: $blue;
+}
+
+.com-body{
+	margin: 0;
+}
+
+.com-title-2{
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: $blue;
 }
