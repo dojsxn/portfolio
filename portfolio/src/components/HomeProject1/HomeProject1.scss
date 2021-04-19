@@ -53,8 +53,13 @@
 	font-size: 1.1rem;
 	font-weight: bold;
 	transition: all 350ms;
+	margin-top: 1.2rem;
 }
 
 .p-link:hover{
 	color: $grey;
+}
+
+.p-content{
+	text-align: justify;
 }

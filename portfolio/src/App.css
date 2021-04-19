@@ -1,0 +1,23 @@
+/*** Works on common browsers ***/
+::selection {
+    background-color: #ebf1ff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #ebf1ff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #ebf1ff;
+}
+
+::-ms-selection {
+    background-color: #ebf1ff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #ebf1ff;
+}
