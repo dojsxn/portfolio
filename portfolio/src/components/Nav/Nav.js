@@ -3,20 +3,18 @@ import './Nav.scss';
 
 export const navBar = ()=>{
 	return(
-		<div className="main-navBar">
-			<nav className="navBar">
-			<ul>
-  				<li><a className="logo" href="/">jasondo.</a></li>
-
-			<div className="links">
-  				<li><a href="/about">about</a></li>
-  				<li><a href="/">work</a></li>
-				<li><a href="/contact">contact</a></li>
-			</div>
-
-			</ul>
-			</nav>
+	<div className="navBar">
+		<div className="logo-box">
+		<a className="logo" href="/">jasondo.</a>
 		</div>
+
+		<div className="links-box">
+  			<a className="link1" href="/about">about</a>
+  			<a className="link2" href="/">work</a>
+			<a className="link3" href="/contact">contact</a>
+		</div>
+
+	</div>
 	)
 }
 

@@ -1,6 +1,49 @@
 @import '../../scss/main.scss';
 
 .homeCover{
-	margin-top: 4rem;
-	border: 1px solid black;
+	width: auto;
+	//border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0rem 10rem 0rem 10rem;
+}
+
+.c-title{
+	font-size: 1.5rem;
+	margin-bottom: 35px;
+	color: $dark-grey;
+}
+
+.c-title-main{
+	font-size: 2.8rem;
+	font-family: $body-stack;
+	color: $blue;
+	margin-bottom: 20px;
+}
+
+.c-intro{
+	height: auto;
+	width: 30%;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-align: justify;
+	margin-bottom: 25px;
+	color: $dark-grey;
+}
+
+.c-text{
+	font-size: 1.2rem;
+	color: $dark-grey;
+}
+
+.c-link{
+	font-size: 1.2rem;
+	color: $blue;
+	transition: all 350ms;
+	text-decoration: none;
+}
+
+.c-link:hover{
+	color: $grey;
 }

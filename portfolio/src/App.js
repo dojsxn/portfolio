@@ -9,8 +9,6 @@ import {cookdeck} from './pages/cookdeck.jsx';
 import {classtrack} from './pages/classtrack.jsx';
 import {unfold} from './pages/unfold.jsx';
 
-import Nav from './components/Nav/Nav.js';
-
 class App extends Component {
 	render(){
 	return(
@@ -23,7 +21,6 @@ class App extends Component {
 				<Route path ="/classtrack" exact component={classtrack}/>
 				<Route path ="/unfold" exact component={unfold}/>
 			</Switch>
-			<Nav/>
 		</Router>
 		);
 	}
