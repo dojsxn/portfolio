@@ -2,20 +2,32 @@
 
 .aboutExperience{
 	margin-top: 4rem;
-	padding-left: 2rem;
-	border: 1px solid black;
+	margin-bottom: 8rem;
+	padding: 0rem 14rem 0rem 14rem;
+	width: auto;
+	height: auto;
+	color: $dark-grey;
+}
+
+.exps1{
+	margin-bottom: 4rem;
+}
+
+.exps{
+	margin-bottom: 4rem;
 }
 
 .e-title-2{
 	font-family: $body-stack;
-	font-size: 1.3rem;
-	color: $dark-grey;
-	font-weight: bolder;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 0;
 }
 
 .e-title-3{
 	font-family: $body-stack;
 	font-size: 1.1rem;
 	color: $grey;
-	font-weight: bold;
+	font-weight: lighter;
+	margin: 0;
 }

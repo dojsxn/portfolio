@@ -36,7 +36,7 @@ export const AboutMe = () =>{
 				</div>
 		</div>
 
-		<h3 className="title2">Tools</h3>
+		<h3 className="title-2">Tools</h3>
 		<div className="skills">
 				<div className="container-1">
 					<p className="title-3">Design</p>

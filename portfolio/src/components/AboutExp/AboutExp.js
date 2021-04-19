@@ -6,7 +6,7 @@ export const AboutExp = ()=>{
 	return(
 <div className="aboutExperience">
 
-	<div className="exps">
+	<div className="exps1">
 		<h1 className="title">Experience</h1>
 			<p className="e-title-2">Social Media Coordinator - Sheridan College</p>
 				<p className="e-title-3">September 2019 to April 2020 - Mississauga, ON</p>

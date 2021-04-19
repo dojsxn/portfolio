@@ -6,7 +6,7 @@ export const AboutEdu =()=>{
 	return(
 <div className="aboutEducation">
 
-	<div className="edu">
+	<div className="edu1">
 	<h1 className="title">Education</h1>
 		<p className="e-title-2">Sheridan College - Interactive Media Management</p>
 		<p className="e-title-3">September 2020 to April 2021 - Mississauga, ON</p>
