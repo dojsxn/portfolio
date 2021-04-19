@@ -7,7 +7,7 @@ export const footerBar = ()=>{
 
 			<div className="footer-text">
 				<h1 className="f-title">learn create share</h1>
-				<h2 className="f-title2">Jason Do</h2>
+				<a className="f-title2" href="/">Jason Do</a>
 				<p className="f-text">digital experience designer</p>
 				<p className="f-copy">© 2021 Jason Do.</p>
 			</div>
