@@ -6,8 +6,8 @@ class ContactForm extends Component{
 
 	state={
 		title: '',
+		email: '',
 		body: '',
-		message: '',
 	};
 
 	handleChange = ({target}) => {
@@ -20,6 +20,7 @@ class ContactForm extends Component{
 
 		const payload = {
 			title: this.state.title,
+			email: this.state.email,
 			body: this.state.body
 		};
 
@@ -41,6 +42,7 @@ class ContactForm extends Component{
 	resetFormInputs = () =>{
 		this.setState({
 			title: '',
+			email: '',
 			body: ''
 		});
 	};
@@ -59,18 +61,37 @@ class ContactForm extends Component{
 
 		return(
 			<div className="contactForm">
-			<h1>Let's create together?</h1>
+			<h1 className="con-title">Let's create together?</h1>
+			<p className="con-content">always curious on expanding my creavity, got something for me?</p>
+
+
+			<div className="contact-cont">
+
 			<form onSubmit={this.submit}>
+				<div className="form-input-name">
+					<p className="form-title">name</p>
+					<input
+						type="text"
+						placeholder="Your Full Name"
+						name="title"
+						value={this.state.title}
+						onChange={this.handleChange}
+					/>
+				</div>
+
 				<div className="form-input">
+				<p className="form-title">email address</p>
 				<input
-					type="text"
-					placeholder="Your Full Name"
-					name="title"
-					value={this.state.title}
+					type="email"
+					placeholder="Your Email Address"
+					name="email"
+					value={this.state.email}
 					onChange={this.handleChange}
 				/>
 				</div>
+
 				<div className="form-input">
+				<p className="form-title">message</p>
 					<textarea
 					name="body"
 					placeholder="Your Message..."
@@ -81,11 +102,14 @@ class ContactForm extends Component{
 					</textarea>
 				</div>
 
-				<button>Submit</button>
+				<button className="form-submit">Submit</button>
 			</form>
+
+			</div>
 
 			<p>{this.state.message}</p>
 			</div>
+
 		);
 	}
 }

@@ -2,5 +2,88 @@
 
 .contactForm{
 	margin-top: 4rem;
-	font-family: $body-stack;
+	margin-bottom: 8rem;
+	padding: 0rem 14rem 0rem 14rem;
+	width: auto;
+	height: auto;
+	color: $dark-grey;
+}
+
+.contact-cont{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type=text] {
+	width: 30rem;
+	font-family: inherit;
+	margin-bottom: 1.5rem;
+	padding: 0.625rem;
+	border:0;
+	border-radius: 0.4rem;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
+}
+
+input[type=email] {
+	width: 30rem;
+	font-family: inherit;
+	margin-bottom: 1.5rem;
+	padding: 0.625rem;
+	border:0;
+	border-radius: 0.4rem;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
+}
+
+textarea {
+	width: 30rem;
+	font-family: inherit;
+	margin-bottom: 1.0rem;
+	padding: 0.625rem;
+	border:0;
+	border-radius: 0.4rem;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
+	resize: none;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    outline: none;
+}
+
+.form-submit{
+	border: 2px solid $blue;
+	border-radius: 8px;
+	font-family: inherit;
+	font-size: 0.85rem;
+	font-weight: bold;
+	text-align: center;
+	background-color: none;
+	color: $dark-grey;
+	padding: 0.45rem 1.5rem;
+	cursor: pointer;
+	transition: all 350ms;
+}
+
+.form-submit:hover{
+	color: $white;
+	background-color: $blue;
+}
+
+
+
+.con-title{
+	margin: 0;
+}
+
+.con-content{
+	margin-bottom: 2.5rem;
+}
+
+.form-input-name{
+}
+
+.form-title{
+	margin: 0;
 }

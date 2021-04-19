@@ -81,7 +81,7 @@ class CommentBoard extends Component{
 
 
 		return(
-			<div className="contactForm">
+			<div className="commentForm">
 			<h1>Done exploring? Leave a message of your journey.</h1>
 			<form onSubmit={this.submit}>
 				<div className="form-input">
