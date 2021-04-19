@@ -2,8 +2,10 @@
 
 .aboutmeSection{
 	margin-top: 4rem;
-	padding-left: 2rem;
-	border: 1px solid black;
+	padding: 0rem 14rem 0rem 14rem;
+	width: auto;
+	height: auto;
+	color: $dark-grey;
 }
 
 .skills{
@@ -12,6 +14,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 4rem;
 }
 
 .container-1{
@@ -30,14 +33,19 @@
 	font-weight: bold;
 }
 
+.content{
+	margin-bottom: 4.0rem;
+}
+
 .title-2{
 	font-family: $body-stack;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: bold;
+	margin: 0;
 }
 
 .title-3{
 	font-family: $body-stack;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: bold;
 }

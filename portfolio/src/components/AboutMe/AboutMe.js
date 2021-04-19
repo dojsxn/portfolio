@@ -13,7 +13,6 @@ export const AboutMe = () =>{
 			</p>
 
 		<h2 className="title-2">Skills</h2>
-
 		<div className="skills">
 				<div className="container-1">
 					<p className="title-3">Design</p>
@@ -38,7 +37,6 @@ export const AboutMe = () =>{
 		</div>
 
 		<h3 className="title2">Tools</h3>
-
 		<div className="skills">
 				<div className="container-1">
 					<p className="title-3">Design</p>
