@@ -4,7 +4,7 @@ import './HomeProject1.scss';
 
 export const HomeProject1 = ()=>{
 	return(
-		<div className="homeProject1">
+		<div id="work" className="homeProject1">
 
 		<div className="p-card">
 			<a className="p-title" href="/classtrack" target="_blank">classtrack</a>

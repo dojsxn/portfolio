@@ -7,9 +7,9 @@ export const classtrack = ()=>{
 		<div className="project-page">
 
 		<div className="pro-cover">
-		<h2>UX/UI Design, Design Case Study, Mobile Interaction Design</h2>
-			<h1>classtrack</h1>
-			<p>Manage, track and organize class timetables & deadlines.</p>
+		<h2 className="pro-title">UX/UI Design, Design Case Study, Mobile Interaction Design</h2>
+			<h1 className="pro-name">classtrack</h1>
+			<p className="pro-content">Manage, track and organize class timetables & deadlines.</p>
 		</div>
 
 		<div className="pro-overview">
