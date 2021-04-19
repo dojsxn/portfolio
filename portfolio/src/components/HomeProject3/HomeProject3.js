@@ -4,14 +4,24 @@ import './HomeProject3.scss';
 
 export const HomeProject3 = ()=>{
 	return(
-		<div className="homeProject">
-		<h1>unfold</h1>
-		<h2>UX/UI Design, Front-End Development, Visual Responsive Web Design</h2>
-		<p>
-		unfold was a project focused on creating a responsive landing page utilizing CSS Frameworks + Preprocessors.
-		unfold was a stepping stone project that allowed me to improve my front-end development skills and visual responsive web design skills.
-		</p>
-		<a href="/unfold" target="_blank">explore more</a>
+		<div className="homeProject3">
+
+		<div className="p-card">
+		<a className="p-title" href="/unfold" target="_blank">unfold</a>
+			<h2 className="p-title2">UX/UI Design, Front-End Development, Visual Responsive Web Design</h2>
+			<p>
+			unfold was a project focused on creating a responsive landing page utilizing CSS Frameworks + Preprocessors.
+			unfold was a stepping stone project that allowed me to improve my front-end development skills and visual responsive web design skills.
+			</p>
+			<a className="p-link" href="/unfold" target="_blank">explore more</a>
+		</div>
+
+		<div className="p-image">
+			<p>test</p>
+		</div>
+
+
+
 		</div>
 	)
 }

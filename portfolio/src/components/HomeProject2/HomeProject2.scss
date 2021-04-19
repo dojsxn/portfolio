@@ -1,7 +1,28 @@
 @import '../../scss/main.scss';
 
-.homeProject{
-	margin-top: 4rem;
-	border: 1px solid black;
+.homeProject2{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 14rem 0rem 28rem;
+	margin: 8rem 0rem 8rem 0rem;
 }
- 
+
+.p-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50rem;
+	height: auto;
+}
+
+.p-image{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50rem;
+	height: auto;
+}

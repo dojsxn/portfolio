@@ -4,12 +4,20 @@ import './HomeProject1.scss';
 
 export const HomeProject1 = ()=>{
 	return(
-		<div className="homeProject">
-		<h1>classtrack</h1>
-		<h2>UX/UI Design, Mobile Interaction Design</h2>
-		<p>classtrack is an app to manage, track and organize class timetables & deadlines. Allowing students to maintain academic organization and time management,
-		students are able to view when they have class & specific deadlines for their classes.</p>
-		<a href="/classtrack" target="_blank">explore more</a>
+		<div className="homeProject1">
+
+		<div className="p-card">
+			<a className="p-title" href="/classtrack" target="_blank">classtrack</a>
+			<h2 className="p-title2">UX/UI Design, Mobile Interaction Design</h2>
+			<p className="p-content">classtrack is an app to manage, track and organize class timetables & deadlines. Allowing students to maintain academic organization and time management,
+			students are able to view when they have class & specific deadlines for their classes.</p>
+			<a className="p-link" href="/classtrack" target="_blank">explore more</a>
+		</div>
+
+		<div className="p-image">
+			<p>test</p>
+		</div>
+
 		</div>
 	)
 }

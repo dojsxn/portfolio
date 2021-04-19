@@ -50,7 +50,7 @@ export const AboutMe = () =>{
 
 				<div className="container-2">
 					<p className="title-3">Development</p>
-					<p className="skill">HTML, CSS, JavaScript</p>
+					<p className="skill">+ HTML, CSS, JavaScript</p>
 					<p className="skill">+ Node, Express</p>
 					<p className="skill">+ PHP, PDO, MySQL</p>
 					<p className="skill">+ React, Vue, jQuery</p>
