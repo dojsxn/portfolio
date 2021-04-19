@@ -25,6 +25,19 @@ input[type=text] {
 	border:0;
 	border-radius: 0.4rem;
 	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
+	transition: all 350ms;
+}
+
+input[type=text]:focus{
+	background-color: $light-grey;
+}
+
+input[type=email]:focus{
+	background-color: $light-grey;
+}
+
+textarea:focus{
+	background-color: $light-grey;
 }
 
 input[type=email] {
@@ -35,6 +48,7 @@ input[type=email] {
 	border:0;
 	border-radius: 0.4rem;
 	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
+	transition: all 350ms;
 }
 
 textarea {
@@ -46,6 +60,7 @@ textarea {
 	border-radius: 0.4rem;
 	box-shadow:0 0 15px 4px rgba(0,0,0,0.05);
 	resize: none;
+	transition: all 350ms;
 }
 
 input[type="text"], input[type="email"], textarea, select {
@@ -81,4 +96,5 @@ input[type="text"], input[type="email"], textarea, select {
 
 .form-title{
 	margin-bottom: 0.8rem;
+	font-size: 1.1rem;
 }
