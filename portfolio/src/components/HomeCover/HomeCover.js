@@ -12,7 +12,7 @@ export const HomeCover = ()=>{
 			</p>
 
 			<p className="c-text">connect with me @<a className="c-link" href="mailto:jasonn.doo@gmail.com">jasonn.doo@gmail.com</a></p>
-			<p className="c-text">explore my work below!</p>
+			<p className="c-text">explore my work below! ↓</p>
 
 		</div>
 	)

@@ -11,7 +11,7 @@ export const HomeProject1 = ()=>{
 			<h2 className="p-title2">UX/UI Design, Mobile Interaction Design</h2>
 			<p className="p-content">classtrack is an app to manage, track and organize class timetables & deadlines. Allowing students to maintain academic organization and time management,
 			students are able to view when they have class & specific deadlines for their classes.</p>
-			<a className="p-link" href="/classtrack" target="_blank">explore more</a>
+			<a className="p-link" href="/classtrack" target="_blank">explore more →</a>
 		</div>
 
 		<div className="p-image">

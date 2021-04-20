@@ -1,2 +1,153 @@
 @import '../../scss/main.scss';
-@import '../../scss/project.scss';
+
+.project-page{
+	width: auto;
+	height: auto;
+	padding: 0rem 14rem 0rem 14rem;
+	color: $dark-grey;
+	margin-bottom: 6rem;
+}
+
+.pro-cover{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin-bottom: 8rem;
+}
+
+.pro-overview{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin-bottom: 8rem;
+}
+
+.pro-challenge{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 8rem;
+}
+
+.pro-txt{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pro-img{
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pro-title{
+	font-size: 1.1rem;
+	font-weight: lighter;
+	margin-bottom: 2.5rem;
+	color: $grey;
+}
+
+.pro-name{
+	font-size: 3.0rem;
+	font-family: $body-stack;
+	margin-bottom: 0.2rem;
+	color: $blue;
+}
+
+.pro-content{
+	font-size: 1.2rem;
+}
+
+.pro-txt-title{
+	font-size: 1.3rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin-bottom: 0;
+	color: $blue;
+}
+
+.pro-txt-content{
+	font-size: 1.1rem;
+	margin-bottom: 2.5rem;
+	text-align: justify;
+}
+
+.ptxt{
+	font-size: 1.1rem;
+	margin-bottom: 3.0rem;
+	text-align: justify;
+}
+
+.ptxt2{
+	font-size: 1.1rem;
+	margin-bottom: 3.0rem;
+	text-align: justify;
+}
+
+.ptxt3{
+	font-size: 1.3rem;
+	margin-bottom: 4.0rem;
+	text-align: justify;
+}
+
+.ptxt4{
+	font-size: 1.3rem;
+	font-style: italic;
+	margin-bottom: 4.0rem;
+	text-align: justify;
+}
+
+
+.pro-txt-title2{
+	font-size: 1.1rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pro-txt-title3{
+	font-size: 1.5rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pro-solution{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 8rem;
+}
+
+.pro-userflow{
+	width: auto;
+	height: 20vh;
+}
+
+.pro-wireframes{
+	width: auto;
+	height: 20vh;
+}
+
+.pro-final{
+	width: auto;
+	height: 20vh;
+}
+
+.pro-future{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
