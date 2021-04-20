@@ -7,7 +7,7 @@ export const HomeProject3 = ()=>{
 		<div className="homeProject3">
 
 		<div className="p-card">
-		<a className="p-title" href="/unfold" target="_blank">unfold</a>
+			<p className="p-title"><a className="p-title" href="/unfold" target="_blank">unfold</a></p>
 			<h2 className="p-title2">UX/UI Design, Front-End Development, Visual Responsive Web Design</h2>
 			<p className="p-content">
 			unfold was a project focused on creating a responsive landing page utilizing CSS Frameworks + Preprocessors.
