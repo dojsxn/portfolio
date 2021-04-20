@@ -49,7 +49,7 @@ class ContactForm extends Component{
 
 	success = () =>{
 		this.setState({
-			message: "thank you for your message! will get back to your shortly!"
+			message: "thank you for your message! i will get back to your shortly!"
 		});
 	}
 
@@ -107,7 +107,10 @@ class ContactForm extends Component{
 
 			</div>
 
-			<p>{this.state.message}</p>
+			<div className="pmessage">
+				<p className="pthank">{this.state.message}</p>
+			</div>
+
 			</div>
 
 		);

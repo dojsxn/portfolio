@@ -13,7 +13,7 @@ export const HomeProject3 = ()=>{
 				unfold was a project focused on creating a responsive landing page utilizing CSS Frameworks + Preprocessors.
 				unfold was a stepping stone project that allowed me to improve my front-end development skills and visual responsive web design skills.
 				</p>
-				<a className="p-link" href="/unfold" target="_blank">explore more →</a>
+				<p><a className="p-link" href="/unfold" target="_blank">explore more →</a></p>
 			</div>
 
 			<div className="p-image">

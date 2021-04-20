@@ -29,15 +29,15 @@ input[type=text] {
 }
 
 input[type=text]:focus{
-	background-color: $light-grey;
+	background-color: #ebf1ff;
 }
 
 input[type=email]:focus{
-	background-color: $light-grey;
+	background-color: #ebf1ff;
 }
 
 textarea:focus{
-	background-color: $light-grey;
+	background-color: #ebf1ff;
 }
 
 input[type=email] {
@@ -97,5 +97,21 @@ input[type="text"], input[type="email"], textarea, select {
 .form-title{
 	margin-bottom: 0.8rem;
 	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.pmessage{
+	margin-top: 2.5rem;
+	margin-bottom: 4rem;
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pthank{
+	font-size: 1.15rem;
+	color: $blue;
 	font-weight: bold;
 }
