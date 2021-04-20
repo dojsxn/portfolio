@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeCover.scss';
-
+import '.../assets/classtrack/cover.png';
 
 export const HomeCover = ()=>{
 	return(
