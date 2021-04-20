@@ -2,11 +2,10 @@
 
 .homeCover{
 	width: auto;
-	//border: 1px solid black;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	height: auto;
 	padding: 0rem 14rem 0rem 14rem;
+	color: $dark-grey;
+	margin-bottom: 6rem;
 }
 
 .c-title{
@@ -16,7 +15,7 @@
 }
 
 .c-title-main{
-	font-size: 2.8rem;
+	font-size: 3.5rem;
 	font-family: $body-stack;
 	color: $blue;
 	margin-bottom: 1.5rem;
