@@ -65,10 +65,14 @@
 
 .f-icons{
 	color: $dark-grey;
-	margin-right: 2rem;
+	margin-right: 2.5rem;
 	transition: all 350ms;
 }
 
 .f-icons:hover{
-	opacity: 0.65;
+	color: $grey;
+}
+
+.f-social{
+	margin-bottom: 2.0rem;
 }

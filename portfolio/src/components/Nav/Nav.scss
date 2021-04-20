@@ -26,7 +26,7 @@
 }
 
 .logo:hover{
-	opacity: 0.70;
+	color: $grey;
 }
 
 .links-box{
@@ -44,5 +44,5 @@
 }
 
 .link1:hover, .link2:hover, .link3:hover{
-	color: $light-grey;
+	color: $grey;
 }
