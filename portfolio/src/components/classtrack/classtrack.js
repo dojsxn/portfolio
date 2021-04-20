@@ -3,6 +3,10 @@ import './classtrack.scss';
 import ctcover from '../../assets/classtrack/cover.png';
 import ctuser from '../../assets/classtrack/classtrack_UF.png';
 import ctwire from '../../assets/classtrack/classtrack_WF.png';
+import ctfinal1 from '../../assets/classtrack/classtrack_f1.png';
+import ctfinal2 from '../../assets/classtrack/classtrack_f2.png';
+import ctfinal3 from '../../assets/classtrack/classtrack_f3.png';
+import ctfinal4 from '../../assets/classtrack/classtrack_f4.png';
 
 export const classtrack = ()=>{
 	return(
@@ -67,12 +71,15 @@ export const classtrack = ()=>{
 
 		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final">
-			<img src={ctcover} width="785" height="430" alt="Logo"/>
+			<img className="pfinal" src={ctfinal1} width="225" height="355" alt="Logo"/>
+			<img className="pfinal" src={ctfinal2} width="225" height="355" alt="Logo"/>
+			<img className="pfinal" src={ctfinal3} width="225" height="355" alt="Logo"/>
+			<img className="pfinal" src={ctfinal4} width="225" height="350" alt="Logo"/>
 		</div>
 
 		<div className="pro-future">
 			<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
-			<p className="ptxt2">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
+			<p className="ptxt">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
 
 			<p className="pro-txt-title">Learning & Lessons</p>
 			<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>

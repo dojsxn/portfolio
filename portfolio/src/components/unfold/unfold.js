@@ -1,6 +1,13 @@
 import React from 'react';
 import './unfold.scss';
+import ufcover from '../../assets/unfold/browser1.png';
+import ufcover2 from '../../assets/unfold/browser2.png';
+import ufuser from '../../assets/unfold/unfold_UF.png';
+import ufwire from '../../assets/unfold/unfold_WF.png';
+import ufwire2 from '../../assets/unfold/unfold_WF2.png';
 
+import uffinal from '../../assets/unfold/landing.png';
+import uffinal2 from '../../assets/unfold/page1.png';
 
 export const unfold = ()=>{
 	return(
@@ -14,7 +21,7 @@ export const unfold = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<p>test</p>
+				<img src={ufcover} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -35,7 +42,7 @@ export const unfold = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<p>test</p>
+				<img src={ufcover2} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -51,16 +58,21 @@ export const unfold = ()=>{
 			<p className="ptxt">With the challenge in mind, I aimed to create a responsive landing page for creative students to find job opportunities. Using Bootstrap and SCSS, I wanted to design & develop a landing page that contained relevant information and imagery that can be developed into a full web application in the future.  </p>
 		</div>
 
+		<p className="pro-txt-title">Userflow</p>
 		<div className="pro-userflow">
-			<p>Userflow</p>
+			<img src={ufuser} width="785" height="590" alt="Logo"/>
 		</div>
 
+		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
-			<p>wireframes</p>
+			<img className="pwire" src={ufwire} width="410" height="580" alt="Logo"/>
+			<img className="pwire" src={ufwire2} width="410" height="580" alt="Logo"/>
 		</div>
 
+		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final">
-			<p>final mockups</p>
+			<img src={uffinal} width="765" height="430" alt="Logo"/>
+			<img src={uffinal2} width="765" height="430" alt="Logo"/>
 		</div>
 
 		<div className="pro-future">

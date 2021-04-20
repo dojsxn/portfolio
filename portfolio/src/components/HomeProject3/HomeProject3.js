@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeProject3.scss';
-import ufcover from '../../assets/unfold/cover.png';
+import ufcover from '../../assets/unfold/landing.png';
 
 export const HomeProject3 = ()=>{
 	return(
