@@ -90,6 +90,7 @@
 }
 
 @media only screen and (max-width: 375px) and (max-height: 812px) {
+
 	.homeProject1{
 		width: 100%;
 		height: auto;
@@ -114,6 +115,10 @@
 		align-items: center;
 	}
 
+	.p-title{
+		font-size: 2.25rem;
+	}
+
 	.p-title2{
 		width: 40%;
 		text-align: left;
@@ -132,11 +137,16 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 1.25rem;
+		margin-top: 2.0rem;
 	}
 
 	.p-imgs, .pimg{
 		width: 420px;
 		height: auto;
 	}
+
+	.p-link{
+		font-size: 1.25rem;
+	}
+
 }
