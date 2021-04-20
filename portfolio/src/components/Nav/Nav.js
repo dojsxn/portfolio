@@ -13,8 +13,8 @@ export const navBar = ()=>{
 				<a className="link2" href="/#work">work</a>
   				<a className="link1" href="/about">about</a>
 				<a className="link3" href="/contact">contact</a>
-				</div>
-				
+			</div>
+
 		</div>
 	)
 }

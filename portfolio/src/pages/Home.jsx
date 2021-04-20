@@ -14,9 +14,9 @@ export const Home = () =>{
 		<Nav/>
 			<HomeCover/>
 				<HomeProject1/>
-				<HomeProject2/>
-				<HomeProject3/>
-				<Footer/>
+					<HomeProject2/>
+						<HomeProject3/>
+		<Footer/>
 		</div>
 	);
 }

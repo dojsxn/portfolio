@@ -46,3 +46,29 @@
 .c-link:hover{
 	color: $grey;
 }
+
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+	.homeCover{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-left: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.c-title-main{
+		font-size: 2.5rem;
+	}
+
+	.c-intro{
+		width: 70%;
+	}
+
+	.c-text, .c-link{
+		width: 70%;
+	}
+
+}
