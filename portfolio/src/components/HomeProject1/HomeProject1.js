@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeProject1.scss';
-
+import ctcover from '../../assets/classtrack/cover.png';
 
 export const HomeProject1 = ()=>{
 	return(
@@ -15,7 +15,7 @@ export const HomeProject1 = ()=>{
 			</div>
 
 			<div className="p-image">
-				<p>test</p>
+				<a className="p-imgs"href="/classtrack" target="_blank"><img className="pimg" src={ctcover} width="765" height="400" alt="Logo"/></a>
 			</div>
 
 		</div>

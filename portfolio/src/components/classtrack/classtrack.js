@@ -1,6 +1,8 @@
 import React from 'react';
 import './classtrack.scss';
-
+import ctcover from '../../assets/classtrack/cover.png';
+import ctuser from '../../assets/classtrack/classtrack_UF.png';
+import ctwire from '../../assets/classtrack/classtrack_WF.png';
 
 export const classtrack = ()=>{
 	return(
@@ -14,7 +16,7 @@ export const classtrack = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<p>test</p>
+				<img src={ctcover} width="765" height="400" alt="Logo"/>
 			</div>
 		</div>
 
@@ -34,7 +36,7 @@ export const classtrack = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<p>test</p>
+
 			</div>
 		</div>
 
@@ -53,16 +55,19 @@ export const classtrack = ()=>{
 			<p className="ptxt">The idea was to promote academic organization with an application that would assist students in managing & organizing their time and deadlines. The solution aims to provide students with relevant information regarding when they have classes and when specific deadlines are due.</p>
 		</div>
 
+		<p className="pro-txt-title">Userflow</p>
 		<div className="pro-userflow">
-			<p>Userflow</p>
+			<img src={ctuser} width="785" height="590" alt="Logo"/>
 		</div>
 
+		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
-			<p>wireframes</p>
+			<img src={ctwire} width="785" height="590" alt="Logo"/>
 		</div>
 
+		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final">
-			<p>final mockups</p>
+			<img src={ctcover} width="785" height="430" alt="Logo"/>
 		</div>
 
 		<div className="pro-future">
@@ -72,6 +77,11 @@ export const classtrack = ()=>{
 			<p className="pro-txt-title">Learning & Lessons</p>
 			<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>
 		</div>
+
+		<div className="pro-linking">
+			<a className="p-link3" href="/#work">explore my other projects!→</a>
+		</div>
+
 
 	</div>
 	)

@@ -19,7 +19,14 @@ export const AboutEdu = () =>{
 			<p className="e-content">Focused on the world of Advertising & Marketing Communications. In this program, I learned foundational advertising knowledge, media development, creative and account management.
 			Working with students and professors to develop many advertising campaigns and proposals to real clients.</p>
 		</div>
+
+		<div className="pro-linking">
+			<a className="p-link3" href="/#work">explore my projects!→</a>
+		</div>
+
 	</div>
+
+
 
 	)
 }

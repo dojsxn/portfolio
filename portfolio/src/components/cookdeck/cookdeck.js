@@ -72,6 +72,11 @@ export const cookDeck = ()=>{
 			<p className="ptxt">With cookdeck, this was my first time designing and developing an application that focuses on health & food. I wanted cookdeck to be different in terms of functionality and design, where users can easily access relevant recipes in a unique web experience that is different from traditional recipe websites.</p>
 		</div>
 
+		<div className="pro-linking">
+			<a className="p-link3" href="/#work">explore my other projects!→</a>
+		</div>
+
+
 	</div>
 	)
 }

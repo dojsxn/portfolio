@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeProject3.scss';
-
+import ufcover from '../../assets/unfold/cover.png';
 
 export const HomeProject3 = ()=>{
 	return(
@@ -17,7 +17,7 @@ export const HomeProject3 = ()=>{
 			</div>
 
 			<div className="p-image">
-				<p>test</p>
+				<a className="p-imgs"href="/unfold" target="_blank"><img className="pimg" src={ufcover} width="765" height="400" alt="Logo"/></a>
 			</div>
 
 		</div>

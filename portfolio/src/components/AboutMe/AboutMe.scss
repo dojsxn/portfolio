@@ -14,7 +14,18 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 4.5rem;
+}
+
+.content-box{
+	display: flex;
+	width: auto;
+	height: auto;
 	margin-bottom: 4rem;
+}
+
+.content{
+	font-size: 1.2rem;
 }
 
 .container-1{
@@ -43,7 +54,7 @@
 	font-family: $body-stack;
 	font-size: 1.5rem;
 	font-weight: bold;
-	margin-bottom: 0.85rem;
+	margin-bottom: 0.70rem;
 }
 
 .title-3{

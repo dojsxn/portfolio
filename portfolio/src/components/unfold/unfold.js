@@ -71,6 +71,10 @@ export const unfold = ()=>{
 			<p className="ptxt2">Creating and developing with a CSS Framework & Preprocessor was the interesting part of the project. I enjoyed designing and developing with these front-end tools. I found myself creating, learning, and exploring at the same time with unfold, and it was enjoyable to experience and learn a new set of front-end development tools. </p>
 		</div>
 
+		<div className="pro-linking">
+			<a className="p-link3" href="/#work">explore my other projects!→</a>
+		</div>
+
 	</div>
 	)
 }

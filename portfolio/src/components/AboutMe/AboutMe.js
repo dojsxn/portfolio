@@ -5,13 +5,15 @@ export const AboutMe = () =>{
 	return(
 	<div className="aboutmeSection">
 			<h1 className="title">About Me</h1>
-			<p className="content">
-				I recently graduated from the Interactive Multimedia Management Program at Sheridan College where I further developed my skills in design + development.
-				I’ve built a wide range of fun, impactful and interactive digital experiences & products.
-				Prior to this, I studied Advertising & Marketing Communications, and worked with digital out-of-home advertising in Toronto. With my experience,
-				I have had the opportunity to learn & create many digital solutions inside and outside the web. My passion in collaborative creation drives my approach to all things I create and design.
-				I am a creative thinker who is always curious with mixing collaboration + creation to create engaging digital experiences and products!
-			</p>
+			<div className="content-box">
+				<p className="content">
+					I recently graduated from the Interactive Multimedia Management Program at Sheridan College where I further developed my skills in design + development.
+					I’ve built a wide range of fun, impactful and interactive digital experiences & products.
+					Prior to this, I studied Advertising & Marketing Communications, and worked with digital out-of-home advertising in Toronto. With my experience,
+					I have had the opportunity to learn & create many digital solutions inside and outside the web. My passion in collaborative creation drives my approach to all things I create and design.
+					I am a creative thinker who is always curious with mixing collaboration + creation to create engaging digital experiences and products!
+				</p>
+			</div>
 
 		<h2 className="title-2">Skills</h2>
 		<div className="skills">
@@ -54,7 +56,7 @@ export const AboutMe = () =>{
 				<p className="skill">+ PHP, PDO, MySQL</p>
 				<p className="skill">+ React, Vue, jQuery</p>
 				<p className="skill">+ SASS, SCSS, Bootstrap</p>
-				<p className="skill">+ ZIM, ThreeJS</p>
+				<p className="skill">+ ZIM, ThreeJS, Sockets</p>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeProject2.scss';
-
+import cdcover from '../../assets/cookdeck/cover.png';
 
 export const HomeProject2 = ()=>{
 	return(
@@ -14,7 +14,7 @@ export const HomeProject2 = ()=>{
 			</div>
 
 			<div className="p-image">
-				<p>test</p>
+				<a className="p-imgs"href="/cookdeck" target="_blank"><img className="pimg" src={cdcover} width="765" height="400" alt="Logo"/></a>
 			</div>
 
 		</div>

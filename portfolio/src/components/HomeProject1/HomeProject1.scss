@@ -7,7 +7,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 0rem 14rem 0rem 28rem;
-	margin: 8rem 0rem 8rem 0rem;
+	margin: 10rem 0rem 10rem 0rem;
 }
 
 .p-card{
@@ -19,11 +19,11 @@
 }
 
 .p-image{
+	margin-left: 0.85rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 50rem;
 	height: auto;
 }
 
@@ -52,7 +52,6 @@
 	font-size: 1.1rem;
 }
 
-
 .p-link{
 	text-decoration: none;
 	color: $blue;
@@ -68,4 +67,25 @@
 
 .p-content{
 	text-align: justify;
+}
+
+.pimg{
+	width: 100%;
+	height: auto;
+}
+
+
+.p-imgs{
+	width: auto;
+	text-decoration: none;
+	transition: all 500ms;
+	-webkit-backface-visibility: hidden;
+   	-ms-transform: translateZ(0);
+   	-webkit-transform: translateZ(0);
+   	transform: translateZ(0);
+}
+
+.p-imgs:hover{
+	opacity: 0.55;
+	transform: scale(1.04)
 }
