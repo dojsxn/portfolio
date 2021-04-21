@@ -47,7 +47,7 @@
 	color: $grey;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 992px) {
 	.navBar{
 		width: 100%;
 		height: 20vh;
@@ -62,7 +62,7 @@
 	.logo-box{
 		justify-content: center;
 		align-items: center;
-		margin-bottom: 0.85rem;
+		margin-bottom: 1.50rem;
 		margin-left: 0.15rem;
 	}
 
@@ -73,9 +73,14 @@
 		margin-left: 0.65rem;
 	}
 
+	.logo{
+		font-size: 1.50rem;
+	}
+
 	.link1, .link2, .link3{
 		margin-left: 0.4rem;
 		padding: 0.5rem;
+		font-size: 1.50rem;
 	}
 
 }
