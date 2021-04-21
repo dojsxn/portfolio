@@ -1,5 +1,14 @@
 @import '../../scss/main.scss';
 
+.hCover{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .homeCover{
 	width: auto;
 	height: auto;
@@ -47,6 +56,31 @@
 	color: $grey;
 }
 
+.blob {
+  	position: absolute;
+  	fill: $blue;
+  	width: 20vmax;
+  	animation: move 10s ease-in-out infinite;
+  	margin-left: 60rem;
+	filter: blur(7px);
+  	-webkit-filter: blur(7px);
+	transition: all 350ms;
+}
+
+@keyframes move {
+	0%   { transform: scale(1)  translate(10px, -30px); }
+	38%  { transform: scale(0.8, 1)  rotate(160deg); }
+	40%  { transform: scale(0.8, 1)  rotate(160deg); }
+	78%  { transform: scale(1.1) rotate(-20deg); }
+	80%  { transform: scale(1.1)  rotate(-20deg); }
+	100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+.blob:hover{
+	fill: $grey;
+}
+
+
 @media only screen and (max-width: 375px) and (max-height: 812px) {
 	.homeCover{
 		width: 100%;
@@ -57,6 +91,21 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
+	}
+
+	.hCover{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.blob{
+		display: none;
+		visibility: hidden;
 	}
 
 	.c-title-main{

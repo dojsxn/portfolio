@@ -1,11 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './AboutExp.scss';
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export const AboutExp = ()=>{
-	return(
+	useEffect(() => {
+		Aos.init({ duration: 950, easing: 'ease-in-sine'});
+	}, []);
 
-	<div className="aboutExperience">
+	return(
+	<div className="aboutExperience" data-aos="fade-up" data-aos-once="true">
 		<div className="exps1">
 			<h1 className="title">Experience</h1>
 				<p className="e-title-2">Social Media Coordinator - Sheridan College</p>

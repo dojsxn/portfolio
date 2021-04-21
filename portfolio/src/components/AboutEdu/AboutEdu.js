@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './AboutEdu.scss';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export const AboutEdu = () =>{
-	return(
+	useEffect(() => {
+		Aos.init({ duration: 950, easing: 'ease-in-sine'});
+	}, []);
 
-	<div className="aboutEducation">
+	return(
+	<div className="aboutEducation" data-aos="fade-up" data-aos-once="true">
 		<div className="edu1">
 			<h1 className="title">Education</h1>
 				<p className="e-title-2">Sheridan College - Interactive Media Management</p>
@@ -21,7 +26,7 @@ export const AboutEdu = () =>{
 		</div>
 
 		<div className="pro-linking">
-			<a className="p-link3" href="/#work">explore my projects!→</a>
+			<a className="p-link3" href="/">explore my projects!→</a>
 		</div>
 
 	</div>

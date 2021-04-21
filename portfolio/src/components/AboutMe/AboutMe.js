@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './AboutMe.scss';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 
 export const AboutMe = () =>{
+	useEffect(() => {
+		Aos.init({ duration: 900, easing: 'ease-in-sine'});
+	}, []);
+
 	return(
 	<div className="aboutmeSection">
 			<h1 className="title">About Me</h1>
@@ -16,7 +23,7 @@ export const AboutMe = () =>{
 			</div>
 
 		<h2 className="title-2">Skills</h2>
-		<div className="skills">
+		<div className="skills" data-aos="fade-up" data-aos-once="true">
 			<div className="container-1">
 				<p className="title-3">Design</p>
 				<p className="skill">+ Branding</p>
@@ -40,7 +47,7 @@ export const AboutMe = () =>{
 		</div>
 
 		<h3 className="title-2">Tools</h3>
-		<div className="skills">
+		<div className="skills" data-aos="fade-up" data-aos-once="true">
 			<div className="container-1">
 				<p className="title-3">Design</p>
 				<p className="skill">+ Adobe Creative Suite</p>

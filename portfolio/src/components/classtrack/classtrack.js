@@ -84,7 +84,7 @@ export const classtrack = ()=>{
 		</div>
 
 		<div className="pro-linking">
-			<a className="p-link3" href="/#work">explore my other projects!→</a>
+			<a className="p-link3" href="/">explore my other projects!→</a>
 		</div>
 
 
