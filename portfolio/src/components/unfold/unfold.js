@@ -11,7 +11,7 @@ import uffinal2 from '../../assets/unfold/page1.png';
 
 export const unfold = ()=>{
 	return(
-	<div className="project-page">
+	<div className="project-page3">
 
 		<div className="pro-cover">
 			<div className="pro-txt">
@@ -21,7 +21,7 @@ export const unfold = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<img src={ufcover} width="700" height="455" alt="Logo"/>
+				<img className="pro-image" src={ufcover} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -42,7 +42,7 @@ export const unfold = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<img src={ufcover2} width="700" height="455" alt="Logo"/>
+				<img className="pro-image" src={ufcover2} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -58,21 +58,21 @@ export const unfold = ()=>{
 			<p className="ptxt">With the challenge in mind, I aimed to create a responsive landing page for creative students to find job opportunities. Using Bootstrap and SCSS, I wanted to design & develop a landing page that contained relevant information and imagery that can be developed into a full web application in the future.  </p>
 		</div>
 
-		<p className="pro-txt-title">Userflow</p>
 		<div className="pro-userflow">
-			<img src={ufuser} width="785" height="590" alt="Logo"/>
+		<p className="pro-txt-title">Userflow</p>
+			<img className="uf-image" src={ufuser} width="785" height="590" alt="Logo"/>
 		</div>
 
-		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
+		<p className="pro-txt-title">Wireframes</p>
 			<img className="pwire" src={ufwire} width="410" height="580" alt="Logo"/>
 			<img className="pwire" src={ufwire2} width="410" height="580" alt="Logo"/>
 		</div>
 
-		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final">
-			<img src={uffinal} width="765" height="430" alt="Logo"/>
-			<img src={uffinal2} width="765" height="430" alt="Logo"/>
+		<p className="pro-txt-title">Final Mockups</p>
+			<img className="uf-image" src={uffinal} width="765" height="430" alt="Logo"/>
+			<img className="uf-image" src={uffinal2} width="765" height="430" alt="Logo"/>
 		</div>
 
 		<div className="pro-future">

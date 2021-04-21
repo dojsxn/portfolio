@@ -1,6 +1,6 @@
 @import '../../scss/main.scss';
 
-.project-page{
+.project-page1{
 	width: auto;
 	height: auto;
 	padding: 0rem 14rem 0rem 14rem;
@@ -79,6 +79,7 @@
 }
 
 .ptxt{
+	width: 100%;
 	font-size: 1.25rem;
 	margin-bottom: 3.0rem;
 	text-align: justify;
@@ -130,6 +131,7 @@
 	width: auto;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: 4rem;
@@ -140,6 +142,7 @@
 	width: auto;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: 4rem;
@@ -147,6 +150,17 @@
 }
 
 .pro-final{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.pro-final2{
 	width: auto;
 	height: auto;
 	display: flex;
@@ -191,6 +205,11 @@
 
 .pfinal{
 	margin-right: 2.5rem;
+}
+
+.pwire{
+	margin-top: 2.25rem;
+	margin-bottom: 2.25rem;
 }
 
 @media only screen and (max-width: 375px) and (max-height: 812px) {
@@ -255,18 +274,19 @@
 		margin-top: 2.0rem;
 	}
 
-	.pro-txt-content1{
+	.pro-txt-content{
 		margin-bottom: 2.50rem;
 	}
 
 	.pro-image{
-		width: 100%;
+		width: 200%;
 		height: auto;
 	}
 
 	.uf-image{
 		width: 100%;
 		height: auto;
+		margin-bottom: 2.50rem;
 	}
 
 	.pro-img{
@@ -293,6 +313,11 @@
 		text-align: left;
 	}
 
+	.ptxt2{
+		font-size: 1.10rem;
+		text-align: left;
+	}
+
 	.ptxt3{
 		font-size: 1.10rem;
 		text-align: left;
@@ -303,6 +328,14 @@
 		text-align: center;
 	}
 
+	.pro-txt-title{
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		margin-bottom: 0.55rem;
+	}
+
 	.pro-userflow{
 		width: 75%;
 		margin: 0;
@@ -311,16 +344,20 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 4.0rem;
 	}
 
 	.pro-wireframes{
 		width: 75%;
+		height: auto;
 		margin: 0;
 		padding: 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 4.0rem;
+		margin-top: 4.0rem;
 	}
 
 	.uf-image{
@@ -336,13 +373,28 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 4.0rem;
+		margin-top: 4.0rem;
 	}
+
+
+	.pro-final2{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 
 	.pfinal{
 		width: 100%;
 		height: auto;
 		margin-left: 2.50rem;
 	}
+
 
 	.pro-solution{
 		width: 75%;
@@ -369,7 +421,5 @@
 	.pro-linking{
 		margin-bottom: 8.5rem;
 	}
-
-
 
 }

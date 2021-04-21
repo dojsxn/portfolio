@@ -11,10 +11,9 @@ import cdfinal2 from '../../assets/cookdeck/page1.png';
 
 export const cookDeck = ()=>{
 	return(
-	<div className="project-page">
+	<div className="project-page3">
 
 		<div className="pro-cover">
-
 			<div className="pro-txt">
 				<h2 className="pro-title">UX/UI Design, Front-End Development, Web Development</h2>
 				<h1 className="pro-name">cookdeck</h1>
@@ -22,7 +21,7 @@ export const cookDeck = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<img src={cdcover} width="700" height="455" alt="Logo"/>
+				<img className="pro-image" src={cdcover} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -42,7 +41,7 @@ export const cookDeck = ()=>{
 			</div>
 
 			<div className="pro-img">
-				<img src={cdcover2} width="700" height="455" alt="Logo"/>
+				<img className="pro-image" src={cdcover2} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -59,30 +58,33 @@ export const cookDeck = ()=>{
 			<p className="ptxt">The idea was to promote home cooking & healthy eating with an application that allows users to retrieve recipes based on lifestyles. The solution aims to provides users with relevant recipes based on their selected lifestyles. Recipes can vary in terms of ingredients required, prepping & cooking time and nutritional information. </p>
 		</div>
 
-		<p className="pro-txt-title">Userflow</p>
+
 		<div className="pro-userflow">
-			<img src={cduser} width="785" height="590" alt="Logo"/>
+		<p className="pro-txt-title">Userflow</p>
+			<img className="uf-image" src={cduser} width="785" height="590" alt="Logo"/>
 		</div>
 
-		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
+		<p className="pro-txt-title">Wireframes</p>
 			<img className="pwire" src={cdwire} width="410" height="580" alt="Logo"/>
 			<img className="pwire" src={cdwire2} width="410" height="580" alt="Logo"/>
 			<img className="pwire" src={cdwire3} width="410" height="580" alt="Logo"/>
 		</div>
 
-		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final">
-			<img src={cdfinal} width="765" height="430" alt="Logo"/>
-			<img src={cdfinal2} width="765" height="430" alt="Logo"/>
+		<p className="pro-txt-title">Final Mockups</p>
+			<img className="uf-image" src={cdfinal} width="765" height="430" alt="Logo"/>
+			<img className="uf-image" src={cdfinal2} width="765" height="430" alt="Logo"/>
 		</div>
 
 		<div className="pro-future">
+		<div className="pro-txt">
 			<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
 			<p className="ptxt2">In the future, I would like to develop cookdeck into a mobile application that integrates the functionality of the web application. With my current concept & prototype, it would be interesting to see how I can further develop cookdeck into a full application.</p>
 
 			<p className="pro-txt-title">Learning & Lessons</p>
 			<p className="ptxt">With cookdeck, this was my first time designing and developing an application that focuses on health & food. I wanted cookdeck to be different in terms of functionality and design, where users can easily access relevant recipes in a unique web experience that is different from traditional recipe websites.</p>
+		</div>
 		</div>
 
 		<div className="pro-linking">
