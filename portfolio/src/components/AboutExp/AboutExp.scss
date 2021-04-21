@@ -49,22 +49,3 @@
 	}
 
 }
-
-@media only screen and (max-width: 768px) {
-	.aboutExperience{
-		width: 85%;
-		height: auto;
-		margin: 0;
-		padding-left: 1.5rem;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		margin-top: 2.5rem;
-		margin-bottom: 2.5rem;
-	}
-
-	.e-content{
-		text-align: left;
-	}
-
-}

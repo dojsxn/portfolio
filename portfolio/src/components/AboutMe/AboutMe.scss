@@ -75,41 +75,8 @@
 		align-items: flex-start;
 	}
 
-	.content{
-		text-align: left;
-		font-size: 1.15rem;
-		margin-bottom: 2.5rem;
-	}
-
-	.container-1 {
-		width: auto;
-		margin-right: 2.5rem;
-	}
-
-	.container-2{
-		margin-bottom: 1.25rem;
-	}
-
-	.skills{
-		width: auto;
-	}
-
-	.skill{
-		font-size: 1.25rem;
-	}
-
-}
-
-@media only screen and (max-width: 768px) {
-	.aboutmeSection{
-		width: 85%;
-		height: auto;
-		margin: 0;
-		padding-left: 1.5rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
+	.container-1{
+		margin-right: 2.50rem;
 	}
 
 	.content{
@@ -118,15 +85,6 @@
 		margin-bottom: 2.5rem;
 	}
 
-	.container-1 {
-		width: auto;
-		margin-right: 1.75rem;
-	}
-
-	.skills{
-		margin-bottom: 5.0rem;
-	}
-	
 	.skill{
 		font-size: 1.15rem;
 	}
