@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './HomeProject3.scss';
 import ufcover from '../../assets/unfold/landing.png';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export const HomeProject3 = ()=>{
+	useEffect(() => {
+		Aos.init({ duration: 1000, easing: 'ease-in-sine'});
+	}, []);
+
 	return(
-		<div className="homeProject3">
+		<div className="homeProject3" data-aos="fade-up" data-aos-once="true">
 
 			<div className="p-card">
 				<p className="p-title"><a className="p-title" href="/unfold" target="_blank">unfold</a></p>

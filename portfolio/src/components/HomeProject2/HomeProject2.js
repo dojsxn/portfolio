@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './HomeProject2.scss';
 import cdcover from '../../assets/cookdeck/cover.png';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 export const HomeProject2 = ()=>{
+	useEffect(() => {
+		Aos.init({ duration: 1000, easing: 'ease-in-sine'});
+	}, []);
+
 	return(
-		<div className="homeProject2">
+		<div className="homeProject2" data-aos="fade-up" data-aos-once="true">
 
 			<div className="p-card">
 				<p className="p-title"><a className="p-title" href="/cookdeck" target="_blank">cookdeck</a></p>
