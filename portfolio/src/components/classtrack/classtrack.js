@@ -10,18 +10,18 @@ import ctfinal4 from '../../assets/classtrack/classtrack_f4.png';
 
 export const classtrack = ()=>{
 	return(
-	<div className="project-page">
+	<div className="project-page1">
 
 		<div className="pro-cover">
-			<div className="pro-txt">
-				<h2 className="pro-title">UX/UI Design, Design Case Study, Mobile Interaction Design</h2>
-				<h1 className="pro-name">classtrack</h1>
-				<p className="pro-content">Manage, track and organize class timetables & deadlines.</p>
-			</div>
+				<div className="pro-txt">
+					<h2 className="pro-title">UX/UI Design, Design Case Study, Mobile Interaction Design</h2>
+					<h1 className="pro-name">classtrack</h1>
+					<p className="pro-content">Manage, track and organize class timetables & deadlines.</p>
+				</div>
 
-			<div className="pro-img">
-				<img src={ctcover} width="765" height="400" alt="Logo"/>
-			</div>
+				<div className="pro-img">
+					<img className="pro-image" src={ctcover} width="765" height="400" alt="Logo"/>
+				</div>
 		</div>
 
 		<div className="pro-overview">
@@ -38,10 +38,6 @@ export const classtrack = ()=>{
 				<p className="pro-txt-title2">Process</p>
 				<p className="pro-txt-content">User Research + Testing, 8-6-42 Prototyping Method, Adobe XD Wireframes, Prototyping.</p>
 			</div>
-
-			<div className="pro-img">
-
-			</div>
 		</div>
 
 		<div className="pro-challenge">
@@ -54,19 +50,21 @@ export const classtrack = ()=>{
 			</div>
 		</div>
 
-		<div className="pro-solution">
-			<p className="pro-txt-title">Solution</p>
+		<div className="pro-solution1">
+		<div className="pro-txt">
+		<p className="pro-txt-title">Solution</p>
 			<p className="ptxt">The idea was to promote academic organization with an application that would assist students in managing & organizing their time and deadlines. The solution aims to provide students with relevant information regarding when they have classes and when specific deadlines are due.</p>
+			</div>
 		</div>
 
 		<p className="pro-txt-title">Userflow</p>
 		<div className="pro-userflow">
-			<img src={ctuser} width="785" height="590" alt="Logo"/>
+			<img className="uf-image" src={ctuser} width="785" height="590" alt="Logo"/>
 		</div>
 
 		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
-			<img src={ctwire} width="785" height="590" alt="Logo"/>
+			<img className="uf-image" src={ctwire} width="785" height="590" alt="Logo"/>
 		</div>
 
 		<p className="pro-txt-title">Final Mockups</p>
@@ -78,14 +76,16 @@ export const classtrack = ()=>{
 		</div>
 
 		<div className="pro-future">
-			<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
-			<p className="ptxt">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
+			<div className="pro-txt">
+				<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
+				<p className="ptxt">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
 
-			<p className="pro-txt-title">Learning & Lessons</p>
-			<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>
+				<p className="pro-txt-title">Learning & Lessons</p>
+				<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>
+			</div>
 		</div>
 
-		<div className="pro-linking">
+		<div className="pro-linking1">
 			<a className="p-link3" href="/#work">explore my other projects!→</a>
 		</div>
 
