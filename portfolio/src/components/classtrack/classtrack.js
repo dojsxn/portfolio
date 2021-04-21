@@ -1,6 +1,7 @@
 import React from 'react';
 import './classtrack.scss';
 import ctcover from '../../assets/classtrack/cover.png';
+import ctcover2 from '../../assets/classtrack/cover2.png';
 import ctuser from '../../assets/classtrack/classtrack_UF.png';
 import ctwire from '../../assets/classtrack/classtrack_WF.png';
 import ctfinal1 from '../../assets/classtrack/classtrack_f1.png';
@@ -37,6 +38,10 @@ export const classtrack = ()=>{
 
 				<p className="pro-txt-title2">Process</p>
 				<p className="pro-txt-content">User Research + Testing, 8-6-42 Prototyping Method, Adobe XD Wireframes, Prototyping.</p>
+			</div>
+
+			<div className="pro-img">
+				<img className="pro-image" src={ctcover2} width="700" height="455" alt="Logo"/>
 			</div>
 		</div>
 
@@ -84,7 +89,7 @@ export const classtrack = ()=>{
 		</div>
 
 		<div className="pro-linking">
-			<a className="p-link3" href="/">explore my other projects!→</a>
+			<a className="p-link3" href="/">explore my other projects! →</a>
 		</div>
 
 

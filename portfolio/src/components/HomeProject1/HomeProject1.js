@@ -6,11 +6,11 @@ import "aos/dist/aos.css";
 
 export const HomeProject1 = () => {
 	useEffect(() => {
-		Aos.init({ duration: 1000, easing: 'ease-in-sine'});
+		Aos.init({ duration: 1000, easing: 'ease-in-sine', delay: 100});
 	}, []);
 
 	return(
-		<div id="work" className="homeProject1" data-aos="fade-up" data-aos-once="true">
+		<div id="work" className="homeProject1" data-aos="fade" data-aos-once="true">
 
 			<div className="p-card">
 				<p className="p-title"><a className="p-title"href="/classtrack" target="_blank">classtrack</a></p>

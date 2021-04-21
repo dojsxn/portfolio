@@ -86,7 +86,7 @@ export const cookDeck = ()=>{
 		</div>
 
 		<div className="pro-linking">
-			<a className="p-link3" href="/">explore my other projects!→</a>
+			<a className="p-link3" href="/">explore my other projects! →</a>
 		</div>
 
 

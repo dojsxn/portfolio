@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 export const AboutEdu = () =>{
 	useEffect(() => {
-		Aos.init({ duration: 950, easing: 'ease-in-sine'});
+		Aos.init({ duration: 950, easing: 'ease-in-sine', delay: 100});
 	}, []);
 
 	return(
@@ -26,7 +26,7 @@ export const AboutEdu = () =>{
 		</div>
 
 		<div className="pro-linking">
-			<a className="p-link3" href="/">explore my projects!→</a>
+			<a className="p-link3" href="/">explore my projects! →</a>
 		</div>
 
 	</div>
