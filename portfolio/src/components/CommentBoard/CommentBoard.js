@@ -88,7 +88,7 @@ class CommentBoard extends Component{
 
 			<div className="co-form">
 			<form onSubmit={this.submit}>
-				<div>
+				<div className="form-input-name">
 				<p className="form-title">name</p>
 				<input
 					type="text"
@@ -99,7 +99,7 @@ class CommentBoard extends Component{
 				/>
 				</div>
 
-				<div>
+				<div className="form-input">
 				<p className="form-title">comment</p>
 					<textarea
 					name="body"

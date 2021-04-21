@@ -78,13 +78,11 @@ export const cookDeck = ()=>{
 		</div>
 
 		<div className="pro-future">
-		<div className="pro-txt">
 			<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
 			<p className="ptxt2">In the future, I would like to develop cookdeck into a mobile application that integrates the functionality of the web application. With my current concept & prototype, it would be interesting to see how I can further develop cookdeck into a full application.</p>
 
 			<p className="pro-txt-title">Learning & Lessons</p>
 			<p className="ptxt">With cookdeck, this was my first time designing and developing an application that focuses on health & food. I wanted cookdeck to be different in terms of functionality and design, where users can easily access relevant recipes in a unique web experience that is different from traditional recipe websites.</p>
-		</div>
 		</div>
 
 		<div className="pro-linking">
