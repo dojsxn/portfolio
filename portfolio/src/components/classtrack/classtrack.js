@@ -73,10 +73,10 @@ export const classtrack = ()=>{
 		<div className="pro-final">
 		<p className="pro-txt-title">Final Mockups</p>
 		<div className="pro-final2">
-			<img className="pfinal" src={ctfinal1} width="225" height="355" alt="Logo"/>
-			<img className="pfinal" src={ctfinal2} width="225" height="355" alt="Logo"/>
-			<img className="pfinal" src={ctfinal3} width="225" height="355" alt="Logo"/>
-			<img className="pfinal" src={ctfinal4} width="225" height="350" alt="Logo"/>
+			<img className="pwire" src={ctfinal1} width="225" height="355" alt="Logo"/>
+			<img className="pwire" src={ctfinal2} width="225" height="355" alt="Logo"/>
+			<img className="pwire" src={ctfinal3} width="225" height="355" alt="Logo"/>
+			<img className="pwire" src={ctfinal4} width="225" height="350" alt="Logo"/>
 		</div>
 		</div>
 
