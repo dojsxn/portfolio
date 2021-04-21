@@ -88,3 +88,32 @@
 	}
 
 }
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+	.aboutmeSection{
+		width: 85%;
+		height: auto;
+		margin: 0;
+		padding-left: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.content{
+		text-align: left;
+		font-size: 1.15rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.container-1 {
+		width: auto;
+		margin-right: 2.5rem;
+	}
+
+	.skill{
+		font-size: 1.25rem;
+	}
+
+}
