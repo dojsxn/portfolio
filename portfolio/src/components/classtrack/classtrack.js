@@ -25,9 +25,9 @@ export const classtrack = ()=>{
 		</div>
 
 		<div className="pro-overview">
-			<div className="pro-txt">
+			<div className="pro-txt1">
 				<p className="pro-txt-title">Overview</p>
-				<p className="pro-txt-content">Classtrack is an app to manage, track and organize class timetables & deadlines. Allowing students to maintain academic organization and time management, students are able to view when they have class & specific deadlines for their classes. </p>
+				<p className="pro-txt-content1">Classtrack is an app to manage, track and organize class timetables & deadlines. Allowing students to maintain academic organization and time management, students are able to view when they have class & specific deadlines for their classes. </p>
 
 				<p className="pro-txt-title2">Tools</p>
 				<p className="pro-txt-content">Adobe XD, Adobe Photoshop, Adobe Illustrator </p>
@@ -50,20 +50,20 @@ export const classtrack = ()=>{
 			</div>
 		</div>
 
-		<div className="pro-solution1">
+		<div className="pro-solution">
 		<div className="pro-txt">
 		<p className="pro-txt-title">Solution</p>
 			<p className="ptxt">The idea was to promote academic organization with an application that would assist students in managing & organizing their time and deadlines. The solution aims to provide students with relevant information regarding when they have classes and when specific deadlines are due.</p>
 			</div>
 		</div>
 
-		<p className="pro-txt-title">Userflow</p>
 		<div className="pro-userflow">
+		<p className="pro-txt-title">Userflow</p>
 			<img className="uf-image" src={ctuser} width="785" height="590" alt="Logo"/>
 		</div>
 
-		<p className="pro-txt-title">Wireframes</p>
 		<div className="pro-wireframes">
+		<p className="pro-txt-title">Wireframes</p>
 			<img className="uf-image" src={ctwire} width="785" height="590" alt="Logo"/>
 		</div>
 
@@ -85,7 +85,7 @@ export const classtrack = ()=>{
 			</div>
 		</div>
 
-		<div className="pro-linking1">
+		<div className="pro-linking">
 			<a className="p-link3" href="/#work">explore my other projects!→</a>
 		</div>
 
