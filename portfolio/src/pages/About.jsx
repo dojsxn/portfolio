@@ -7,8 +7,6 @@ import AboutExp from '../components/AboutExp/AboutExp';
 import AboutEdu from '../components/AboutEdu/AboutEdu';
 import Nav from '../components/Nav/Nav.js';
 import Footer from '../components/Footer/Footer.js';
-//import AboutSkills from '../components/AboutMe/AboutSkills';
-//import AboutExperiences from '../components/AboutExperiences/AboutExperiences';
 
 export const About = () =>{
 	return(
