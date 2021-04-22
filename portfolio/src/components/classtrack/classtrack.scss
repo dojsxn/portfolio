@@ -318,7 +318,7 @@
 	}
 
 	.ptxt2{
-		font-size: 1.25rem;
+		font-size: 1.15rem;
 		text-align: left;
 	}
 
@@ -336,6 +336,13 @@
 		text-align: left;
 		padding: 0;
 		width: 100%;
+	}
+
+	.pro-txt-title2{
+		text-align: left;
+		padding: 0;
+		width: 100%;
+		font-size: 1.15rem;
 	}
 
 	.pro-userflow{
@@ -389,6 +396,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 4.0rem;
 	}
 
 
