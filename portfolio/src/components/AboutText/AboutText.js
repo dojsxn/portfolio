@@ -1,17 +1,27 @@
 import React from 'react';
 import './AboutText.scss';
+import gif from '../../assets/portgif.gif';
 
 export const AboutText = ()=>{
 	return(
 	<div className="aboutHeader">
-		<h1 className="greet">hello there! i am...</h1>
-		<h2 className="name">Jason Do</h2>
-		<h3 className="desc">toronto based + digital experience designer</h3>
+	<div className="aboutCover">
+		<div className="abouttxt">
+			<h1 className="greet">hello there! i am...</h1>
+			<h2 className="name">Jason Do</h2>
+			<h3 className="desc">toronto based + digital experience designer</h3>
 
 
-		<p><a className="a-link" href="https://jasondo.ca/" target="_blank" rel="noopener noreferrer">+ jasondo.ca</a></p>
-		<p><a className="a-link" href="mailto:jasonn.doo@gmail.com">+ jasonn.doo@gmail.com</a></p>
-		<p><a className="a-link" href="tel:+5743185942">+ 574 318 5942</a></p>
+			<p><a className="a-link" href="https://jasondo.ca/" target="_blank" rel="noopener noreferrer">+ jasondo.ca</a></p>
+			<p><a className="a-link" href="mailto:jasonn.doo@gmail.com">+ jasonn.doo@gmail.com</a></p>
+			<p><a className="a-link" href="tel:+5743185942">+ 574 318 5942</a></p>
+		</div>
+
+		<div className="aboutimg">
+			<img className="pro-image" src={gif} width="600" height="350" alt="Logo"/>
+		</div>
+
+	</div>
 
 		<div className="a-icon-box">
 			<a href="https://github.com/dojsxn" target="_blank" rel="noopener noreferrer" className="a-icons"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">

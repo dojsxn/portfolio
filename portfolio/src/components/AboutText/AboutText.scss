@@ -53,6 +53,18 @@
 	color: $grey;
 }
 
+.aboutCover{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.abouttxt{
+	width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
 	.aboutHeader{
 		width: 100%;
@@ -66,6 +78,20 @@
 		margin-top: 4rem;
 	}
 
+	.aboutCover{
+		width: 100%;
+		height: auto;
+	}
+
+	.abouttxt{
+		width: 100%;
+		height: auto;
+	}
+
+	.a-link{
+		white-space:nowrap;
+	}
+
 	.greet{
 		margin-bottom: 2.45rem;
 	}
@@ -76,6 +102,11 @@
 
 	.a-icon-box{
 		margin-bottom: 4rem;
+	}
+
+	.aboutimg{
+		display: hidden;
+		visibility: hidden;
 	}
 
 
