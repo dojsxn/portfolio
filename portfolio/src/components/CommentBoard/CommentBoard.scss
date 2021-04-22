@@ -57,7 +57,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 6rem;
+		margin-top: 4rem;
 		margin-bottom: 2.5rem;
 	}
 
@@ -82,15 +82,15 @@
 
 
 	input[type=text] {
-		width: 150%;
+		width: 100%;
 	}
 
 	input[type=email] {
-		width: 150%;
+		width: 100%;
 	}
 
 	textarea{
-		width: 150%;
+		width: 100%;
 	}
 
 	.comments{
@@ -101,71 +101,12 @@
 		align-items: flex-start;
 		height: auto;
 		margin-top: 4rem;
+		margin-bottom: 4rem;
 	}
 
 	.form-submit{
 		margin-top: 1.5rem;
 		width: 100%;
 	}
-
-}
-
-@media only screen and (max-width: 768px) {
-	.commentForm{
-		width: 100%;
-		height: auto;
-		margin: 0;
-		padding: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-top: 6rem;
-		margin-bottom: 2.5rem;
-	}
-
-	.con-content{
-		width: 80%;
-		text-align: center;
-	}
-
-	.form-input-name{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.form-input{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-
-	input[type=text] {
-		width: 100%;
-	}
-
-	input[type=email] {
-		width: 100%;
-	}
-
-	textarea{
-		width: 100%;
-	}
-
-	.comments{
-		width: 80%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: flex-start;
-		height: auto;
-		margin-top: 4rem;
-	}
-
-
 
 }
