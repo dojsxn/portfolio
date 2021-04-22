@@ -65,20 +65,20 @@ export const cookDeck = ()=>{
 		</div>
 
 		<div className="pro-wireframes">
-		<p className="pro-txt-title">Wireframes</p>
-		<div className="pro-final2">
-			<img className="pwire" src={cdwire} width="410" height="580" alt="Logo"/>
-			<img className="pwire" src={cdwire2} width="410" height="580" alt="Logo"/>
-			<img className="pwire" src={cdwire3} width="410" height="580" alt="Logo"/>
-		</div>
+			<p className="pro-txt-title">Wireframes</p>
+			<div className="pro-final2">
+				<img className="pwire" src={cdwire} width="410" height="580" alt="Logo"/>
+				<img className="pwire" src={cdwire2} width="410" height="580" alt="Logo"/>
+				<img className="pwire" src={cdwire3} width="410" height="580" alt="Logo"/>
+			</div>
 		</div>
 
 		<div className="pro-final">
-		<p className="pro-txt-title">Final Mockups</p>
-		<div className="pro-final2">
-			<img className="pwire" src={cdfinal} width="765" height="430" alt="Logo"/>
-			<img className="pwire" src={cdfinal2} width="765" height="430" alt="Logo"/>
-		</div>
+			<p className="pro-txt-title">Final Mockups</p>
+			<div className="pro-final2">
+				<img className="pwire" src={cdfinal} width="765" height="430" alt="Logo"/>
+				<img className="pwire" src={cdfinal2} width="765" height="430" alt="Logo"/>
+			</div>
 		</div>
 
 		<div className="pro-future">

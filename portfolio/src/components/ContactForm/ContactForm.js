@@ -61,8 +61,8 @@ class ContactForm extends Component{
 
 		return(
 			<div className="contactForm">
-			<h1 className="con-title">Let's create together?</h1>
-			<p className="con-content">always curious on expanding my creavity, got something for me?</p>
+				<h1 className="con-title">Let's create together?</h1>
+				<p className="con-content">always curious on expanding my creavity, got something for me?</p>
 
 
 			<div className="contact-cont">
@@ -76,6 +76,7 @@ class ContactForm extends Component{
 						name="title"
 						value={this.state.title}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 
@@ -87,6 +88,7 @@ class ContactForm extends Component{
 						name="email"
 						value={this.state.email}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 

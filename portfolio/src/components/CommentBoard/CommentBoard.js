@@ -68,8 +68,8 @@ class CommentBoard extends Component{
 
 	return comments.map((comments, index)=>(
 			<div className="com-box" key={index}>
-			<h4 className="com-name">{comments.title}</h4>
-			<p className="com-body">{comments.body}</p>
+				<h4 className="com-name">{comments.title}</h4>
+				<p className="com-body">{comments.body}</p>
 			</div>
 		));
 	};
@@ -96,6 +96,7 @@ class CommentBoard extends Component{
 					name="title"
 					value={this.state.title}
 					onChange={this.handleChange}
+					required
 				/>
 				</div>
 
