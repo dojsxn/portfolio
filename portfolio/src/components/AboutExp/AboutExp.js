@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 export const AboutExp = ()=>{
 	useEffect(() => {
-		Aos.init({ duration: 950, easing: 'ease-in-sine', delay: 50});
+		Aos.init({ duration: 1000, easing: 'ease-in-sine', delay: 120});
 	}, []);
 
 	return(
@@ -28,7 +28,7 @@ export const AboutExp = ()=>{
 				I was tasked with helping students with English work such as revising, grammar checking and proof-reading student work.
 				</p>
 		</div>
-		
+
 	</div>
 
 	)

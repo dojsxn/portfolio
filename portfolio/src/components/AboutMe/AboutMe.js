@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 export const AboutMe = () =>{
 	useEffect(() => {
-		Aos.init({ duration: 900, easing: 'ease-in-sine', delay: 50});
+		Aos.init({ duration: 1000, easing: 'ease-in-sine', delay: 120});
 	}, []);
 
 	return(

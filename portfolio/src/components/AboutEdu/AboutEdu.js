@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 export const AboutEdu = () =>{
 	useEffect(() => {
-		Aos.init({ duration: 950, easing: 'ease-in-sine', delay: 100});
+		Aos.init({ duration: 1200, easing: 'ease-in-sine', delay: 120});
 	}, []);
 
 	return(
@@ -31,7 +31,7 @@ export const AboutEdu = () =>{
 			</div>
 
 	</div>
-	
+
 	)
 }
 
