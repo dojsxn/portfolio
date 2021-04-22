@@ -1,0 +1,154 @@
+@import '../../scss/main.scss';
+
+.homeProject1{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 14rem 0rem 28rem;
+	margin: 10rem 0rem 10rem 0rem;
+}
+
+.p-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50rem;
+	height: auto;
+}
+
+.p-image{
+	margin-left: 0.85rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+}
+
+.p-title{
+	width: auto;
+	text-decoration: none;
+	font-family: $body-stack;
+	color: $dark-grey;
+	font-size: 1.8rem;
+	font-weight: bold;
+	transition: all 350ms;
+}
+
+.p-title:hover{
+	color: $grey;
+}
+
+.p-title2{
+	font-family: $body-stack;
+	color: $grey;
+	font-size: 1.0rem;
+	font-weight: lighter;
+}
+
+.p-content{
+	font-size: 1.1rem;
+}
+
+.p-link{
+	text-decoration: none;
+	color: $blue;
+	font-size: 1.1rem;
+	font-weight: bold;
+	transition: all 350ms;
+	margin-top: 1.2rem;
+}
+
+.p-link:hover{
+	color: $grey;
+}
+
+.p-content{
+	text-align: justify;
+}
+
+.pimg{
+	width: 100%;
+	height: auto;
+}
+
+.p-imgs{
+	width: auto;
+	text-decoration: none;
+	transition: all 500ms;
+	-webkit-backface-visibility: hidden;
+   	-ms-transform: translateZ(0);
+   	-webkit-transform: translateZ(0);
+   	transform: translateZ(0);
+}
+
+.p-imgs:hover{
+	opacity: 0.55;
+	transform: scale(1.04)
+}
+
+@media only screen and (max-width: 992px) {
+
+	.homeProject1{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 6rem;
+		margin-bottom: 8rem;
+	}
+
+	.p-card{
+		margin-top: 2.0rem;
+		padding:0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.p-title{
+		font-size: 2.25rem;
+		margin: 1rem;
+	}
+
+	.p-title2{
+		width: 40%;
+		text-align: left;
+	}
+
+	.p-content{
+		width: 40%;
+		text-align: left;
+		height: auto;
+	}
+
+	.p-image{
+		width: 40%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 2.0rem;
+		margin-right: 1.25rem;
+	}
+
+	.p-imgs, .pimg{
+		width: 420px;
+		height: auto;
+	}
+
+	.p-link{
+		font-size: 1.25rem;
+	}
+
+}

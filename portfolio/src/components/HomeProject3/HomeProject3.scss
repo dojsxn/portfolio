@@ -1,0 +1,44 @@
+@import '../../scss/main.scss';
+
+.homeProject3{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 14rem 0rem 28rem;
+	margin: 10rem 0rem 10rem 0rem;
+}
+
+.p-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50rem;
+	height: auto;
+}
+
+.p-image{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50rem;
+	height: auto;
+}
+
+@media only screen and (max-width: 992px){
+	.homeProject3{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 6rem;
+		margin-bottom: 14rem;
+	}
+
+}

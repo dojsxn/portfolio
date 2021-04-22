@@ -1,0 +1,101 @@
+@import '../../scss/main.scss';
+
+.aboutmeSection{
+	margin-top: 4rem;
+	padding: 0rem 14rem 0rem 14rem;
+	width: auto;
+	height: auto;
+	color: $dark-grey;
+}
+
+.skills{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4.5rem;
+}
+
+.content-box{
+	display: flex;
+	width: auto;
+	height: auto;
+	margin-bottom: 4rem;
+}
+
+.content{
+	font-size: 1.2rem;
+}
+
+.container-1{
+	width: 50%;
+	height: 20rem;
+}
+
+.container-2{
+	width: 50%;
+	height: 20rem;
+}
+
+.title{
+	font-family: $body-stack;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 1.2rem;
+}
+
+.content{
+	margin-bottom: 4.0rem;
+	text-align: justify;
+}
+
+.title-2{
+	font-family: $body-stack;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.70rem;
+}
+
+.title-3{
+	font-family: $body-stack;
+	font-size: 1.20rem;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+	.aboutmeSection{
+		width: 85%;
+		height: auto;
+		margin: 0;
+		padding-left: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.skills{
+		margin-bottom: 10rem;
+	}
+
+	.container-1{
+		height: 20rem;
+		margin-right: 2.50rem;
+	}
+
+	.container-2{
+		height: 20rem;
+	}
+
+	.content{
+		text-align: justify;
+		font-size: 1.10rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.skill{
+		font-size: 1.15rem;
+	}
+
+}

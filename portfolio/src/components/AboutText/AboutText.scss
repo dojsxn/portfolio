@@ -1,0 +1,112 @@
+@import '../../scss/main.scss';
+
+.aboutHeader{
+	width: auto;
+	height: auto;
+	padding: 0rem 14rem 0rem 14rem;
+	color: $dark-grey;
+	margin-bottom: 6rem;
+}
+
+.a-icon-box{
+	margin-top: 2.2rem;
+}
+
+.greet{
+	color: $dark-grey;
+	font-size: 1.5rem;
+	margin-bottom: 3.5rem;
+}
+
+.name{
+	color: $blue;
+	font-size: 3.5rem;
+	font-family: $body-stack;
+	margin-bottom: 1.5rem;
+}
+
+.desc{
+	color: $dark-grey;
+	font-size: 1.2rem;
+	margin-bottom: 2.0rem;
+}
+
+.a-link{
+	text-decoration: none;
+	color: $blue;
+	font-size: 1.2rem;
+	transition: all 300ms;
+}
+
+.a-link:hover{
+	color: $grey;
+}
+
+.a-icons{
+	color: $dark-grey;
+	margin-top: 2.5rem;
+	margin-right: 2.5rem;
+	transition: all 350ms;
+}
+
+.a-icons:hover{
+	color: $grey;
+}
+
+.aboutCover{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.abouttxt{
+	width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+	.aboutHeader{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-left: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		margin-top: 4rem;
+	}
+
+	.aboutCover{
+		width: 100%;
+		height: auto;
+	}
+
+	.abouttxt{
+		width: 100%;
+		height: auto;
+	}
+
+	.a-link{
+		white-space:nowrap;
+	}
+
+	.greet{
+		margin-bottom: 2.45rem;
+	}
+
+	.name{
+		font-size: 3.25rem;
+	}
+
+	.a-icon-box{
+		margin-bottom: 4rem;
+	}
+
+	.aboutimg{
+		display: hidden;
+		visibility: hidden;
+	}
+
+}

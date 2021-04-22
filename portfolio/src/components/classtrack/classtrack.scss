@@ -1,0 +1,432 @@
+@import '../../scss/main.scss';
+
+.project-page1{
+	width: auto;
+	height: auto;
+	padding: 0rem 14rem 0rem 14rem;
+	color: $dark-grey;
+	margin-bottom: 6rem;
+}
+
+.pro-cover{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin-bottom: 8rem;
+}
+
+.pro-overview{
+	width: auto;
+	height: auto;
+	display: flex;
+	margin-bottom: 8rem;
+}
+
+.pro-challenge{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+.pro-txt{
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pro-img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 2.5rem;
+	margin-left: 1.25rem;
+}
+
+.pro-title{
+	font-size: 1.1rem;
+	font-weight: lighter;
+	margin-bottom: 2.5rem;
+	color: $grey;
+}
+
+.pro-name{
+	font-size: 3.0rem;
+	font-family: $body-stack;
+	margin-bottom: 0.2rem;
+	color: $blue;
+}
+
+.pro-content{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.pro-txt-title{
+	font-size: 1.6rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin-bottom: 0;
+	color: $blue;
+}
+
+.pro-txt-content{
+	font-size: 1.15rem;
+	margin-bottom: 2.5rem;
+	text-align: justify;
+}
+
+.ptxt{
+	width: 100%;
+	font-size: 1.25rem;
+	margin-bottom: 3.0rem;
+	text-align: justify;
+}
+
+.ptxt2{
+	width: 100%;
+	font-size: 1.25rem;
+	margin-bottom: 3.0rem;
+	text-align: justify;
+}
+
+.ptxt3{
+	font-size: 1.3rem;
+	margin-bottom: 4.0rem;
+	text-align: justify;
+}
+
+.ptxt4{
+	font-size: 1.35rem;
+	font-style: italic;
+	margin-bottom: 4.0rem;
+	text-align: justify;
+}
+
+.pro-txt-title2{
+	font-size: 1.25rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pro-txt-title3{
+	font-size: 1.5rem;
+	font-family: $body-stack;
+	font-weight: bold;
+	margin: 0;
+}
+
+.pro-solution{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 8rem;
+}
+
+.pro-userflow{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
+}
+
+.pro-wireframes{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+	margin-bottom: 8rem;
+}
+
+.pro-final{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8rem;
+	margin-bottom: 4rem;
+}
+
+.pro-final2{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.pro-future{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
+
+.pro-linking{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.p-link3{
+	text-decoration: none;
+	color: $blue;
+	font-size: 1.35rem;
+	font-weight: bold;
+	transition: all 350ms;
+	margin-top: 1.2rem;
+}
+
+.p-link3:hover{
+	color: $grey;
+}
+
+.pfinal{
+	margin-right: 2.5rem;
+}
+
+.pwire{
+	margin-top: 2.25rem;
+	margin-bottom: 2.25rem;
+}
+
+@media only screen and (max-width: 992px) {
+	.project-page1{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pro-cover{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pro-title{
+		width: 100%;
+		text-align: center;
+	}
+
+	.pro-name{
+		width: 100%;
+		text-align: center;
+	}
+
+	.pro-content{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.pro-txt{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.pro-txt-content{
+		text-align: left;
+	}
+
+	.pro-overview{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 2.0rem;
+	}
+
+	.pro-txt-content{
+		margin-bottom: 2.50rem;
+	}
+
+	.pro-image{
+		width: 100%;
+		height: auto;
+	}
+
+	.uf-image{
+		width: 100%;
+		height: auto;
+		margin-bottom: 2.50rem;
+	}
+
+	.pro-img{
+		margin: 3.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.pro-challenge{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4.0rem;
+	}
+
+	.ptxt{
+		font-size: 1.25rem;
+		text-align: left;
+	}
+
+	.ptxt2{
+		font-size: 1.15rem;
+		text-align: left;
+	}
+
+	.ptxt3{
+		font-size: 1.25rem;
+		text-align: left;
+	}
+
+	.ptxt4{
+		font-size: 1.45rem;
+		text-align: center;
+	}
+
+	.pro-txt-title{
+		text-align: left;
+		padding: 0;
+		width: 100%;
+	}
+
+	.pro-txt-title2{
+		text-align: left;
+		padding: 0;
+		width: 100%;
+		font-size: 1.15rem;
+	}
+
+	.pro-userflow{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.0rem;
+	}
+
+	.pro-wireframes{
+		width: 75%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.0rem;
+		margin-top: 4.0rem;
+	}
+
+	.uf-image{
+		width: 100%;
+		height: auto;
+	}
+
+	.pro-final{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.0rem;
+		margin-top: 4.0rem;
+	}
+
+	.pro-final2{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.0rem;
+	}
+
+	.pwire{
+		width: 50%;
+		height: auto;
+		margin-bottom: 2.50rem;
+		margin-left: 2.20rem;
+	}
+
+	.pro-solution{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.0rem;
+	}
+
+	.pro-future{
+		width: 75%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 4.0rem;
+	}
+
+	.pro-linking{
+		margin-bottom: 8.5rem;
+	}
+
+}

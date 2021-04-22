@@ -1,0 +1,32 @@
+/*COLOR VARIABLES*/
+$blue: #558DFE;
+
+$dark-grey: #333333;
+$grey: #B8B8B8;
+$light-grey: #D6D6D6;
+
+$white: #FFFFFF;
+
+/*FONT STACK*/
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$font-stack: 'Karla', sans-serif;
+$body-stack: 'Poppins', sans-serif;
+
+html, body{
+	font-family: $font-stack;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #F9F9F9;
+}
+
+@media only screen and (max-width: 992px){
+	html, body {
+		height:auto!important;
+		max-width: 100%;
+	    overflow-x: hidden;
+	}
+}
