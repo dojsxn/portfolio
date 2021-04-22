@@ -77,9 +77,6 @@ class CommentBoard extends Component{
 
 	render(){
 
-		console.log('State:', this.state);
-
-
 		return(
 			<div className="commentForm">
 
@@ -120,8 +117,6 @@ class CommentBoard extends Component{
 				<p className="com-title">Comments</p>
 				{this.displayComments(this.state.comments)}
 			</div>
-
-
 
 			</div>
 		);

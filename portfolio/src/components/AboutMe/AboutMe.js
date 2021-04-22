@@ -11,7 +11,7 @@ export const AboutMe = () =>{
 
 	return(
 	<div className="aboutmeSection">
-			<h1 className="title">About Me</h1>
+		<h1 className="title">About Me</h1>
 			<div className="content-box">
 				<p className="content">
 					I recently graduated from the Interactive Multimedia Management Program at Sheridan College where I further developed my skills in design + development.

@@ -57,13 +57,13 @@
 }
 
 .blob {
-  	position: absolute;
-  	fill: $blue;
-  	width: 20vmax;
-  	animation: move 10s ease-in-out infinite;
-  	margin-left: 60rem;
+	position: absolute;
+	fill: $blue;
+	width: 20vmax;
+	animation: move 10s ease-in-out infinite;
+	margin-left: 60rem;
 	filter: blur(7px);
-  	-webkit-filter: blur(7px);
+	-webkit-filter: blur(7px);
 	transition: all 350ms;
 }
 

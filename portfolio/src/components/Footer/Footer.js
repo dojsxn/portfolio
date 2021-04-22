@@ -33,6 +33,7 @@ export const footerBar = ()=>{
 					</svg>
 				</a>
 			</div>
+			
 		</div>
 
 	</div>

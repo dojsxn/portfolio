@@ -28,7 +28,7 @@ export const AboutEdu = () =>{
 
 			<div className="pro-linking">
 				<a className="p-link3" href="/">explore my projects! →</a>
-			</div>
+				</div>
 
 	</div>
 

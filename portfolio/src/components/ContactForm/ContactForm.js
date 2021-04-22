@@ -56,9 +56,6 @@ class ContactForm extends Component{
 
 	render(){
 
-		console.log('State:', this.state);
-
-
 		return(
 			<div className="contactForm">
 				<h1 className="con-title">Let's create together?</h1>
