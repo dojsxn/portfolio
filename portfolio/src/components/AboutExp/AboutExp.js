@@ -10,6 +10,7 @@ export const AboutExp = ()=>{
 
 	return(
 	<div className="aboutExperience" data-aos="fade-up" data-aos-once="true">
+
 		<div className="exps1">
 			<h1 className="title">Experience</h1>
 				<p className="e-title-2">Social Media Coordinator - Sheridan College</p>
@@ -27,6 +28,7 @@ export const AboutExp = ()=>{
 				I was tasked with helping students with English work such as revising, grammar checking and proof-reading student work.
 				</p>
 		</div>
+		
 	</div>
 
 	)

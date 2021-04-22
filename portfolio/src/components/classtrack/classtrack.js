@@ -56,36 +56,36 @@ export const classtrack = ()=>{
 		</div>
 
 		<div className="pro-solution">
-		<p className="pro-txt-title">Solution</p>
-			<p className="ptxt">The idea was to promote academic organization with an application that would assist students in managing & organizing their time and deadlines. The solution aims to provide students with relevant information regarding when they have classes and when specific deadlines are due.</p>
+			<p className="pro-txt-title">Solution</p>
+				<p className="ptxt">The idea was to promote academic organization with an application that would assist students in managing & organizing their time and deadlines. The solution aims to provide students with relevant information regarding when they have classes and when specific deadlines are due.</p>
 		</div>
 
 		<div className="pro-userflow">
-		<p className="pro-txt-title">Userflow</p>
-			<img className="uf-image" src={ctuser} width="785" height="590" alt="Logo"/>
+			<p className="pro-txt-title">Userflow</p>
+				<img className="uf-image" src={ctuser} width="785" height="590" alt="Logo"/>
 		</div>
 
 		<div className="pro-wireframes">
-		<p className="pro-txt-title">Wireframes</p>
-			<img className="uf-image" src={ctwire} width="785" height="590" alt="Logo"/>
+			<p className="pro-txt-title">Wireframes</p>
+				<img className="uf-image" src={ctwire} width="785" height="590" alt="Logo"/>
 		</div>
 
 		<div className="pro-final">
 		<p className="pro-txt-title">Final Mockups</p>
-		<div className="pro-final2">
-			<img className="pwire1" src={ctfinal1} width="225" height="355" alt="Logo"/>
-			<img className="pwire1" src={ctfinal2} width="225" height="355" alt="Logo"/>
-			<img className="pwire1" src={ctfinal3} width="225" height="355" alt="Logo"/>
-			<img className="pwire1" src={ctfinal4} width="225" height="350" alt="Logo"/>
-		</div>
+			<div className="pro-final2">
+				<img className="pwire1" src={ctfinal1} width="225" height="355" alt="Logo"/>
+				<img className="pwire1" src={ctfinal2} width="225" height="355" alt="Logo"/>
+				<img className="pwire1" src={ctfinal3} width="225" height="355" alt="Logo"/>
+				<img className="pwire1" src={ctfinal4} width="225" height="350" alt="Logo"/>
+			</div>
 		</div>
 
 		<div className="pro-future">
-				<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
-				<p className="ptxt">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
+			<p className="pro-txt-title">Future Outlook & Continuing Steps</p>
+			<p className="ptxt">I will look to continue to work and develop classtrack in the future, refining and developing more features that promote academic organization among students. With the general idea of the application in mind, I would like to integrate classtrack into a full mobile app. </p>
 
-				<p className="pro-txt-title">Learning & Lessons</p>
-				<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>
+			<p className="pro-txt-title">Learning & Lessons</p>
+			<p className="ptxt">This was my first time designing for a wearable. My first challenge when designing classtrack was the size of smartwatches, as there is a greater restriction on screen size than other devices. I had to be more creative and design focused when thinking about the information I would display on the app. I had to think about adjustments in visuals & texts and how they would be impacted based on the screen size. </p>
 		</div>
 
 		<div className="pro-linking">
