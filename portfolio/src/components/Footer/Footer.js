@@ -5,7 +5,7 @@ export const footerBar = ()=>{
 	return(
 	<div className="footer-bar">
 
-		<div className="footer-text">
+		<div className="footer-text" id="contact">
 			<h1 className="f-title">always curious.</h1>
 			<a className="f-title2" href="/">Jason Do</a>
 			<p className="f-text">digital experience designer</p>
@@ -33,7 +33,7 @@ export const footerBar = ()=>{
 					</svg>
 				</a>
 			</div>
-			
+
 		</div>
 
 	</div>

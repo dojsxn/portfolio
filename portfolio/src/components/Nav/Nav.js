@@ -12,7 +12,7 @@ export const navBar = ()=>{
 			<div className="links-box">
 				<a className="link2" href="/">work</a>
   				<a className="link1" href="/about">about</a>
-				<a className="link3" href="/contact">contact</a>
+				<a className="link3" href="/#contact">contact</a>
 			</div>
 
 		</div>
