@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutText.scss';
-import gif from '../../assets/portgif.gif';
 
 export const AboutText = ()=>{
 	return(
@@ -16,10 +15,6 @@ export const AboutText = ()=>{
 				<p><a className="a-link" href="https://jasondo.ca/" target="_blank" rel="noopener noreferrer">+ jasondo.ca</a></p>
 				<p><a className="a-link" href="mailto:jasonn.doo@gmail.com">+ jasonn.doo@gmail.com</a></p>
 				<p><a className="a-link" href="tel:+5743185942">+ 574 318 5942</a></p>
-			</div>
-
-			<div className="aboutimg">
-				<img className="pro-image" src={gif} width="600" height="350" alt="Logo"/>
 			</div>
 		</div>
 
@@ -39,7 +34,7 @@ export const AboutText = ()=>{
 				</svg>
 			</a>
 		</div>
-		
+
 	</div>
 	);
 }
