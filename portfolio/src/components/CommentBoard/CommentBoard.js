@@ -18,7 +18,7 @@ class CommentBoard extends Component{
 	getComment = () =>{
 		axios.get('/capi')
 		.then((response) =>{
-			const data = response.data;
+			const data = [response.data];
 			this.setState({comments: data});
 			console.log('Data has been recieved!!!');
 		})
